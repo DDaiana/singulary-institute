@@ -1,0 +1,14 @@
+{
+  "name": "singulary-institute",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Repository-backed research institution and public website for Singulary Institute.",
+  "workspaces": [
+    "apps/website"
+  ],
+  "scripts": {
+    "dev": "npm --workspace apps/website run dev",
+    "build": "npm --workspace apps/website run build",
+    "preview": "npm --workspace apps/website run preview"
+  }
+}

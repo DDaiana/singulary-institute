@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0.0",
+  "institution": "Singulary Institute",
+  "repository_model": {
+    "research_infrastructure": "../research-infrastructure",
+    "content": "../content",
+    "website": "../apps/website",
+    "publication_pipeline": "Draft -> Review -> Approved -> Website -> LinkedIn -> Archive"
+  },
+  "research_areas": [
+    {
+      "title": "AI & Technology",
+      "slug": "ai-technology",
+      "summary": "Foundational models, infrastructure, capabilities, and the dynamics of AI advancement."
+    },
+    {
+      "title": "Institutions & Governance",
+      "slug": "institutions-governance",
+      "summary": "Power structures, incentives, policies, and governance transformation."
+    },
+    {
+      "title": "Society & Behavior",
+      "slug": "society-behavior",
+      "summary": "Attention, culture, human behavior, and the shifting social operating system."
+    },
+    {
+      "title": "Economy & Work",
+      "slug": "economy-work",
+      "summary": "Labor markets, productivity, organizational change, and value creation."
+    },
+    {
+      "title": "Risk & Futures",
+      "slug": "risk-futures",
+      "summary": "Emerging risks, systemic vulnerabilities, and plausible future scenarios."
+    }
+  ],
+  "programmes": [
+    {
+      "title": "Policy Usability & Decision Systems",
+      "slug": "policy-usability-and-decision-systems",
+      "summary": "Research on how policy outputs become usable at the point of decision.",
+      "status": "active",
+      "path": "content/programmes/policy-usability-and-decision-systems.md"
+    },
+    {
+      "title": "Youth Safety & Emerging Risks",
+      "slug": "youth-safety-and-emerging-risks",
+      "summary": "Prevention-focused intelligence on emerging risks affecting children and young people.",
+      "status": "active",
+      "path": "content/programmes/youth-safety-and-emerging-risks.md"
+    },
+    {
+      "title": "Innovation Intelligence & Signal Detection",
+      "slug": "innovation-intelligence-and-signal-detection",
+      "summary": "Monitoring weak signals and institutional shifts in innovation ecosystems.",
+      "status": "development",
+      "path": "content/programmes/innovation-intelligence-and-signal-detection.md"
+    },
+    {
+      "title": "European Innovation Ecosystems",
+      "slug": "european-innovation-ecosystems",
+      "summary": "Research on European innovation infrastructure, funding systems, and policy translation.",
+      "status": "development",
+      "path": "content/programmes/european-innovation-ecosystems.md"
+    }
+  ],
+  "publications": [
+    {
+      "title": "The Missing Layer",
+      "slug": "the-missing-layer",
+      "type": "framework",
+      "programme": "Policy Usability & Decision Systems",
+      "research_area": "Institutions & Governance",
+      "status": "draft",
+      "date": "2026-06-01",
+      "summary": "Why AI policy fails at the point of use and how decision-ready translation mechanisms could help.",
+      "tags": ["policy usability", "decision systems", "AI governance"],
+      "source_path": "content/publications/the-missing-layer.md",
+      "public": true
+    },
+    {
+      "title": "AI-Enabled Manipulation",
+      "slug": "ai-enabled-manipulation",
+      "type": "brief",
+      "programme": "Youth Safety & Emerging Risks",
+      "research_area": "Risk & Futures",
+      "status": "draft",
+      "date": "2026-06-01",
+      "summary": "A prevention-focused intelligence brief on emerging AI-enabled manipulation risks affecting young people.",
+      "tags": ["youth safety", "AI manipulation", "emerging risks"],
+      "source_path": "content/publications/ai-enabled-manipulation.md",
+      "public": true
+    }
+  ]
+}

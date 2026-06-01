@@ -1,0 +1,21 @@
+# Signal Tagging Taxonomy
+
+- AI governance
+- enterprise adoption
+- institutional friction
+- regulation
+- infrastructure
+- labor
+- compute
+- safety
+- education
+- innovation funding
+- capital concentration
+- public administration
+- enterprise workflows
+- interoperability
+- trust and legitimacy
+- youth safety
+- online exploitation
+- synthetic media deception
+- digital coercion
