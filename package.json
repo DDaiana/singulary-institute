@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "dev": "npm --workspace apps/website run dev",
-    "build": "npm --workspace apps/website run build",
+    "build": "cd apps/website && vite build",
     "preview": "npm --workspace apps/website run preview"
   }
 }

@@ -26,14 +26,12 @@ jobs:
         with:
           node-version: 20
           cache: npm
-          cache-dependency-path: apps/website/package.json
+          cache-dependency-path: package-lock.json
 
       - name: Install dependencies
-        working-directory: apps/website
-        run: npm install
+        run: npm ci
 
       - name: Build website
-        working-directory: apps/website
         run: npm run build
 
       - name: Upload Pages artifact

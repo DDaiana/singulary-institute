@@ -137,14 +137,18 @@ function Shell({ children, active = 'research' }) {
   );
 }
 
-function IconCard({ title, body, Icon = FileText, tone = 'blue', meta }) {
+function formatDate(value) {
+  return new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }).format(new Date(value));
+}
+
+function IconCard({ title, body, Icon = FileText, tone = 'blue', meta, href = '#research-areas' }) {
   return (
     <article className={`card tone-${tone}`}>
       <div className="icon"><Icon size={26} /></div>
       {meta ? <small>{meta}</small> : null}
       <h3>{title}</h3>
       <p>{body}</p>
-      <a href={`#${slugify(title)}`}>Explore <ArrowRight size={16} /></a>
+      <a href={href}>Explore <ArrowRight size={16} /></a>
     </article>
   );
 }
@@ -203,6 +207,7 @@ function Research() {
               Icon={BookOpen}
               tone={programme.status === 'active' ? 'blue' : 'purple'}
               meta={programme.status}
+              href="#publications"
             />
           ))}
         </div>
@@ -228,7 +233,7 @@ function Research() {
           <a href="#research-areas">View all areas <ArrowRight size={18} /></a>
         </div>
         <div className="area-grid">
-          {areas.map((area) => <IconCard key={area.slug} title={area.title} body={area.summary} Icon={area.Icon} tone={area.tone} />)}
+          {areas.map((area) => <IconCard key={area.slug} title={area.title} body={area.summary} Icon={area.Icon} tone={area.tone} href="#research-areas" />)}
         </div>
       </section>
     </Shell>
@@ -258,7 +263,7 @@ function Publications() {
   );
 }
 
-function Publication({ publication, img }) {
+function Publication({ publication, img, compact = false }) {
   return (
     <article className="pub">
       <div className={`thumb t${img % 3}`} />
@@ -266,7 +271,7 @@ function Publication({ publication, img }) {
         <small>{publication.research_area}</small>
         <h3>{publication.title}</h3>
         <p>{publication.summary}</p>
-        <span>{publication.programme} · {typeLabels[publication.type] || publication.type} · {publication.status}</span>
+        <span>{publication.programme} · {typeLabels[publication.type] || publication.type} · {formatDate(publication.date)}{compact ? '' : ` · ${publication.status}`}</span>
       </div>
       <ArrowRight size={18} />
     </article>
@@ -283,7 +288,7 @@ function ResearchAreas() {
         <div className="areas-large">
           {areas.map((area) => {
             const related = publications.filter((publication) => publication.research_area === area.title).length;
-            return <IconCard key={area.slug} title={area.title} body={area.summary} Icon={area.Icon} tone={area.tone} meta={`${related} linked item${related === 1 ? '' : 's'}`} />;
+            return <IconCard key={area.slug} title={area.title} body={area.summary} Icon={area.Icon} tone={area.tone} meta={`${related} linked item${related === 1 ? '' : 's'}`} href="#publications" />;
           })}
         </div>
       </section>
@@ -338,8 +343,8 @@ function Archive() {
         <div className="timeline">
           {archive.map((publication, index) => (
             <article key={publication.slug}>
-              <span className="date">{publication.status}</span>
-              <Publication publication={publication} img={index} />
+              <span className="date">{formatDate(publication.date)}</span>
+              <Publication publication={publication} img={index} compact />
             </article>
           ))}
         </div>
@@ -358,9 +363,9 @@ function About() {
         </div>
         <div className="about-orbit"><img src={symbol} alt="" /></div>
         <div className="about-cards">
-          <IconCard title="Research Infrastructure" body="Identity, governance, intelligence pipeline, theory, operations, publication, and programmes." Icon={Network} />
-          <IconCard title="Publication System" body="Structured content registry with linked programmes, research areas, publication states, and archive surfacing." Icon={BookOpen} />
-          <IconCard title="Contributor System" body="Guidelines and editorial standards for grant-ready public-interest research collaboration." Icon={Users} />
+          <IconCard title="Research Infrastructure" body="Identity, governance, intelligence pipeline, theory, operations, publication, and programmes." Icon={Network} href="#methodology" />
+          <IconCard title="Publication System" body="Structured content registry with linked programmes, research areas, publication states, and archive surfacing." Icon={BookOpen} href="#publications" />
+          <IconCard title="Contributor System" body="Guidelines and editorial standards for grant-ready public-interest research collaboration." Icon={Users} href="#methodology" />
         </div>
         <div className="belief">
           <h2>We believe</h2>
