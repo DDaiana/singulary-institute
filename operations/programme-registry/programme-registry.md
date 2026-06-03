@@ -1,0 +1,10 @@
+# Programme Registry
+
+Date: 2026-06-03
+
+| Programme | Status | Stage | Research Type | Evidence Level | Source Count | Review Status | Trust Level | Last Updated | Owner | Active Projects | Published Outputs | Research Areas | Future Priorities | Next Required Action |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Policy Usability & Decision Systems | Approved | Stage 3 - Research Architecture | Conceptual | Interpretive | 0 | Not yet evidence reviewed | Developing | 2026-06-03 | Programme Architect | The Missing Layer | None | AI & Technology; Institutions & Governance | decision-translation framework; policy usability methods; publication architecture | Develop methodology framework and first publication architecture through The Missing Layer |
+| Youth Safety & Emerging Risks | Under Review | Stage 4 - Research in Motion | Interpretive | Interpretive | 0 | Methodology boundaries pending | Developing | 2026-06-03 | Programme Architect | AI-Enabled Manipulation | None | AI & Technology; Society & Behavior; Risk & Futures | prevention-focused signal taxonomy; methodological boundary note; draft intelligence brief | Confirm methodology boundaries and define first editorial architecture for AI-Enabled Manipulation |
+| Innovation Intelligence & Signal Detection | Under Review | Stage 2 - Programme Placement | Conceptual | Conceptual | 0 | Architecture pending | Developing | 2026-06-03 | Programme Architect | None | None | AI & Technology; Society & Behavior; Economy & Work; Risk & Futures | signal registry design; cross-domain monitoring workflow | Define initial project architecture before adding outputs |
+| European Innovation Ecosystems | Under Review | Stage 2 - Programme Placement | Conceptual | Conceptual | 0 | Architecture pending | Developing | 2026-06-03 | Programme Architect | None | None | Institutions & Governance; Economy & Work | ecosystem mapping; funding-system analysis; policy translation pathway | Complete research architecture and identify first project candidate |

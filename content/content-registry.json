@@ -90,7 +90,23 @@
         "the-missing-layer"
       ],
       "methodology": "Decision-context mapping, policy-output review, institutional boundary analysis, and translation-layer modelling.",
-      "status": "active",
+      "status": "Approved",
+      "stage": "Stage 3 - Research Architecture",
+      "research_type": "Conceptual",
+      "evidence_level": "Interpretive",
+      "source_count": 0,
+      "review_status": "Not yet evidence reviewed",
+      "trust_level": "Developing",
+      "last_updated": "2026-06-03",
+      "next_required_action": "Develop methodology framework and first publication architecture through The Missing Layer.",
+      "owner": "Programme Architect",
+      "active_projects": ["the-missing-layer"],
+      "published_outputs": [],
+      "future_priorities": [
+        "decision-translation framework",
+        "policy usability methods",
+        "publication architecture"
+      ],
       "path": "content/programmes/policy-usability-and-decision-systems.md"
     },
     {
@@ -112,7 +128,23 @@
         "ai-enabled-manipulation"
       ],
       "methodology": "Prevention-focused signal collection, source review, scenario mapping, methodological boundary checks, and responsible interpretation.",
-      "status": "active",
+      "status": "Under Review",
+      "stage": "Stage 4 - Research in Motion",
+      "research_type": "Interpretive",
+      "evidence_level": "Interpretive",
+      "source_count": 0,
+      "review_status": "Methodology boundaries pending",
+      "trust_level": "Developing",
+      "last_updated": "2026-06-03",
+      "next_required_action": "Confirm methodology boundaries and define first editorial architecture for AI-Enabled Manipulation.",
+      "owner": "Programme Architect",
+      "active_projects": ["ai-enabled-manipulation"],
+      "published_outputs": [],
+      "future_priorities": [
+        "prevention-focused signal taxonomy",
+        "methodological boundary note",
+        "draft intelligence brief"
+      ],
       "path": "content/programmes/youth-safety-and-emerging-risks.md"
     },
     {
@@ -133,7 +165,22 @@
       ],
       "projects": [],
       "methodology": "Signal tagging, source registry maintenance, cross-domain interpretation, and consequence mapping.",
-      "status": "development",
+      "status": "Under Review",
+      "stage": "Stage 2 - Programme Placement",
+      "research_type": "Conceptual",
+      "evidence_level": "Conceptual",
+      "source_count": 0,
+      "review_status": "Architecture pending",
+      "trust_level": "Developing",
+      "last_updated": "2026-06-03",
+      "next_required_action": "Define initial project architecture before adding outputs.",
+      "owner": "Programme Architect",
+      "active_projects": [],
+      "published_outputs": [],
+      "future_priorities": [
+        "signal registry design",
+        "cross-domain monitoring workflow"
+      ],
       "path": "content/programmes/innovation-intelligence-and-signal-detection.md"
     },
     {
@@ -152,7 +199,23 @@
       ],
       "projects": [],
       "methodology": "Institutional mapping, policy-system review, ecosystem signal analysis, and decision-context interpretation.",
-      "status": "development",
+      "status": "Under Review",
+      "stage": "Stage 2 - Programme Placement",
+      "research_type": "Conceptual",
+      "evidence_level": "Conceptual",
+      "source_count": 0,
+      "review_status": "Architecture pending",
+      "trust_level": "Developing",
+      "last_updated": "2026-06-03",
+      "next_required_action": "Complete research architecture and identify first project candidate.",
+      "owner": "Programme Architect",
+      "active_projects": [],
+      "published_outputs": [],
+      "future_priorities": [
+        "ecosystem mapping",
+        "funding-system analysis",
+        "policy translation pathway"
+      ],
       "path": "content/programmes/european-innovation-ecosystems.md"
     }
   ],
@@ -165,15 +228,32 @@
         "ai-technology",
         "institutions-governance"
       ],
-      "status": "draft framework",
+      "status": "Approved",
+      "stage": "Stage 3 - Research Architecture",
+      "research_type": "Conceptual",
+      "evidence_level": "Interpretive",
+      "source_count": 0,
+      "review_status": "Evidence registry placeholder created; source review not completed",
+      "trust_level": "Developing",
+      "current_position": "Research in Motion",
+      "last_updated": "2026-06-03",
+      "next_required_action": "Develop methodology framework and first publication architecture",
+      "owner": "Research Director",
       "summary": "An investigation into why policy outputs often fail at the point of use and what decision-ready translation mechanisms could change.",
       "overview": "The project examines the gap between policy production and practical institutional decision-making.",
       "why_it_matters": "Policy can be rigorous and still unusable if it does not reach the decision context in a form that supports judgement, timing, and action.",
       "methodology": "Policy-output review, decision-system mapping, interpretation of institutional friction, and framework development.",
       "framework": "Maps the path from signal to interpretation, decision, and consequence, with emphasis on the translation layer.",
       "outputs": [
-        "Decision-translation framework",
-        "Programme-linked draft output"
+        "Framework",
+        "Policy Essay",
+        "Case Study Series",
+        "Decision Brief Model"
+      ],
+      "dependencies": [
+        "methodology framework",
+        "publication architecture",
+        "editorial review plan"
       ],
       "publication_links": [
         "the-missing-layer"
@@ -189,7 +269,17 @@
         "society-behavior",
         "risk-futures"
       ],
-      "status": "research in motion",
+      "status": "Under Review",
+      "stage": "Stage 4 - Research in Motion",
+      "research_type": "Interpretive",
+      "evidence_level": "Interpretive",
+      "source_count": 0,
+      "review_status": "Evidence review not completed",
+      "trust_level": "Developing",
+      "current_position": "Research in Motion",
+      "last_updated": "2026-06-03",
+      "next_required_action": "Confirm prevention-focused methodology boundaries and define editorial review requirements",
+      "owner": "Research Director",
       "summary": "A prevention-focused intelligence project on emerging AI-enabled manipulation risks affecting young people.",
       "overview": "The project tracks how AI systems can make manipulation more scalable, adaptive, personalised, and difficult for institutions to detect early.",
       "why_it_matters": "Youth-facing digital environments are changing quickly. Prevention-focused intelligence helps institutions identify weak signals before risks become normalised.",
@@ -199,6 +289,11 @@
         "Prevention-focused intelligence brief",
         "Signal taxonomy",
         "Methodological boundary note"
+      ],
+      "dependencies": [
+        "source review",
+        "methodological boundary check",
+        "editorial review criteria"
       ],
       "publication_links": [
         "ai-enabled-manipulation"
@@ -214,7 +309,19 @@
       "project": "the-missing-layer",
       "programme": "policy-usability-and-decision-systems",
       "researchArea": "institutions-governance",
-      "status": "draft",
+      "status": "Drafting",
+      "stage": "Stage 5 - Draft Output",
+      "research_type": "Conceptual",
+      "evidence_level": "Interpretive",
+      "source_count": 0,
+      "review_status": "Evidence review not completed",
+      "trust_level": "Developing",
+      "editorial_state": "Not yet in editorial review",
+      "publication_date": null,
+      "archive_status": "Not archived",
+      "last_updated": "2026-06-03",
+      "next_required_action": "Develop publication architecture before editorial review",
+      "owner": "Editorial Director",
       "date": "2026-06-01",
       "summary": "Why AI policy fails at the point of use and how decision-ready translation mechanisms could help.",
       "tags": ["policy usability", "decision systems", "AI governance"],
@@ -228,7 +335,19 @@
       "project": "ai-enabled-manipulation",
       "programme": "youth-safety-and-emerging-risks",
       "researchArea": "risk-futures",
-      "status": "draft",
+      "status": "Drafting",
+      "stage": "Stage 5 - Draft Output",
+      "research_type": "Interpretive",
+      "evidence_level": "Interpretive",
+      "source_count": 0,
+      "review_status": "Evidence review not completed",
+      "trust_level": "Developing",
+      "editorial_state": "Not yet in editorial review",
+      "publication_date": null,
+      "archive_status": "Not archived",
+      "last_updated": "2026-06-03",
+      "next_required_action": "Confirm scope and methodology boundaries before editorial review",
+      "owner": "Editorial Director",
       "date": "2026-06-01",
       "summary": "A prevention-focused intelligence brief on emerging AI-enabled manipulation risks affecting young people.",
       "tags": ["youth safety", "AI manipulation", "emerging risks"],
