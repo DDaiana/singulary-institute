@@ -1,37 +1,74 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "institution": "Singulary Institute",
   "repository_model": {
     "research_infrastructure": "../research-infrastructure",
     "content": "../content",
     "website": "../apps/website",
+    "canonical_hierarchy": "Research Area -> Programme -> Project / Research in Motion -> Publication / Output",
     "publication_pipeline": "Draft -> Review -> Approved -> Website -> LinkedIn -> Archive"
   },
-  "research_areas": [
+  "researchAreas": [
     {
       "title": "AI & Technology",
       "slug": "ai-technology",
-      "summary": "Foundational models, infrastructure, capabilities, and the dynamics of AI advancement."
+      "summary": "Foundational models, infrastructure, capabilities, and the dynamics of AI advancement.",
+      "overview": "AI & Technology examines technical capability, infrastructure, model behaviour, and the institutional conditions that shape how AI systems become usable or risky.",
+      "why_it_matters": "Technical change only becomes consequential when it meets incentives, workflows, policy, and human interpretation. This area keeps capability signals connected to decisions and consequences.",
+      "methodological_note": "Analysis separates observed technical signals from institutional inference and avoids unsupported claims about capability, adoption, or impact.",
+      "programmes": [
+        "policy-usability-and-decision-systems",
+        "innovation-intelligence-and-signal-detection",
+        "youth-safety-and-emerging-risks"
+      ]
     },
     {
       "title": "Institutions & Governance",
       "slug": "institutions-governance",
-      "summary": "Power structures, incentives, policies, and governance transformation."
+      "summary": "Power structures, incentives, policies, and governance transformation.",
+      "overview": "Institutions & Governance studies how rules, incentives, standards, and operating models shape public-interest decisions.",
+      "why_it_matters": "Governance failures often occur between policy intent and practical use. This area focuses on the translation layer where institutions turn analysis into action.",
+      "methodological_note": "Outputs distinguish governance structure, decision context, and implementation constraints rather than treating policy as a finished endpoint.",
+      "programmes": [
+        "policy-usability-and-decision-systems",
+        "european-innovation-ecosystems"
+      ]
     },
     {
       "title": "Society & Behavior",
       "slug": "society-behavior",
-      "summary": "Attention, culture, human behavior, and the shifting social operating system."
+      "summary": "Attention, culture, human behavior, and the shifting social operating system.",
+      "overview": "Society & Behavior examines attention, trust, interaction patterns, cultural incentives, and how people interpret emerging systems.",
+      "why_it_matters": "Signals become consequential through human behaviour. This area keeps interpretation, social context, and public-facing consequences visible.",
+      "methodological_note": "Research avoids clinical, therapeutic, or direct-support positioning and focuses on prevention-oriented public-interest analysis.",
+      "programmes": [
+        "youth-safety-and-emerging-risks",
+        "innovation-intelligence-and-signal-detection"
+      ]
     },
     {
       "title": "Economy & Work",
       "slug": "economy-work",
-      "summary": "Labor markets, productivity, organizational change, and value creation."
+      "summary": "Labor markets, productivity, organizational change, and value creation.",
+      "overview": "Economy & Work studies how innovation, labour, organisational systems, and funding environments change what institutions can do.",
+      "why_it_matters": "Economic and organisational consequences determine whether technological change creates usable public value or new systemic pressure.",
+      "methodological_note": "Analysis treats economic change as a signal environment and avoids unsupported forecasts, market claims, or fabricated traction.",
+      "programmes": [
+        "european-innovation-ecosystems",
+        "innovation-intelligence-and-signal-detection"
+      ]
     },
     {
       "title": "Risk & Futures",
       "slug": "risk-futures",
-      "summary": "Emerging risks, systemic vulnerabilities, and plausible future scenarios."
+      "summary": "Emerging risks, systemic vulnerabilities, and plausible future scenarios.",
+      "overview": "Risk & Futures maps weak signals, institutional blind spots, plausible scenarios, and the decision windows around emerging risks.",
+      "why_it_matters": "The value of foresight is not prediction. It is clearer interpretation of signals before consequences become locked in.",
+      "methodological_note": "Scenario work is labelled as inference, not forecast, and is tied back to evidence, boundaries, and decision relevance.",
+      "programmes": [
+        "youth-safety-and-emerging-risks",
+        "innovation-intelligence-and-signal-detection"
+      ]
     }
   ],
   "programmes": [
@@ -39,6 +76,20 @@
       "title": "Policy Usability & Decision Systems",
       "slug": "policy-usability-and-decision-systems",
       "summary": "Research on how policy outputs become usable at the point of decision.",
+      "overview": "This programme studies the missing translation layer between policy, analysis, and institutional decisions.",
+      "research_questions": [
+        "How do decision-makers interpret policy outputs under time, uncertainty, and operational pressure?",
+        "What makes a policy signal usable at the point where choices are made?",
+        "Which structures help institutions convert analysis into decision-ready guidance?"
+      ],
+      "researchAreas": [
+        "ai-technology",
+        "institutions-governance"
+      ],
+      "projects": [
+        "the-missing-layer"
+      ],
+      "methodology": "Decision-context mapping, policy-output review, institutional boundary analysis, and translation-layer modelling.",
       "status": "active",
       "path": "content/programmes/policy-usability-and-decision-systems.md"
     },
@@ -46,6 +97,21 @@
       "title": "Youth Safety & Emerging Risks",
       "slug": "youth-safety-and-emerging-risks",
       "summary": "Prevention-focused intelligence on emerging risks affecting children and young people.",
+      "overview": "This programme examines emerging risk signals in youth-facing digital environments without positioning Singulary as a crisis, therapeutic, legal, or direct survivor-support service.",
+      "research_questions": [
+        "Which weak signals suggest emerging youth-facing risk patterns?",
+        "How can institutions identify prevention windows before risk patterns normalise?",
+        "What boundaries are needed for responsible public-interest analysis?"
+      ],
+      "researchAreas": [
+        "ai-technology",
+        "society-behavior",
+        "risk-futures"
+      ],
+      "projects": [
+        "ai-enabled-manipulation"
+      ],
+      "methodology": "Prevention-focused signal collection, source review, scenario mapping, methodological boundary checks, and responsible interpretation.",
       "status": "active",
       "path": "content/programmes/youth-safety-and-emerging-risks.md"
     },
@@ -53,6 +119,20 @@
       "title": "Innovation Intelligence & Signal Detection",
       "slug": "innovation-intelligence-and-signal-detection",
       "summary": "Monitoring weak signals and institutional shifts in innovation ecosystems.",
+      "overview": "This programme monitors weak signals across technology, institutions, society, work, and plausible futures.",
+      "research_questions": [
+        "Which signals indicate shifts in innovation capability or institutional readiness?",
+        "How can noisy information be structured into decision-relevant intelligence?",
+        "Where do technical, social, and economic signals converge?"
+      ],
+      "researchAreas": [
+        "ai-technology",
+        "society-behavior",
+        "economy-work",
+        "risk-futures"
+      ],
+      "projects": [],
+      "methodology": "Signal tagging, source registry maintenance, cross-domain interpretation, and consequence mapping.",
       "status": "development",
       "path": "content/programmes/innovation-intelligence-and-signal-detection.md"
     },
@@ -60,8 +140,70 @@
       "title": "European Innovation Ecosystems",
       "slug": "european-innovation-ecosystems",
       "summary": "Research on European innovation infrastructure, funding systems, and policy translation.",
+      "overview": "This programme studies European innovation infrastructure and the institutional conditions that shape funding, adoption, and public-interest outcomes.",
+      "research_questions": [
+        "How do European innovation systems translate funding and policy into usable capacity?",
+        "Where do governance, markets, and institutional incentives create friction?",
+        "What signals indicate stronger public-interest innovation infrastructure?"
+      ],
+      "researchAreas": [
+        "institutions-governance",
+        "economy-work"
+      ],
+      "projects": [],
+      "methodology": "Institutional mapping, policy-system review, ecosystem signal analysis, and decision-context interpretation.",
       "status": "development",
       "path": "content/programmes/european-innovation-ecosystems.md"
+    }
+  ],
+  "projects": [
+    {
+      "title": "The Missing Layer",
+      "slug": "the-missing-layer",
+      "programme": "policy-usability-and-decision-systems",
+      "researchAreas": [
+        "ai-technology",
+        "institutions-governance"
+      ],
+      "status": "draft framework",
+      "summary": "An investigation into why policy outputs often fail at the point of use and what decision-ready translation mechanisms could change.",
+      "overview": "The project examines the gap between policy production and practical institutional decision-making.",
+      "why_it_matters": "Policy can be rigorous and still unusable if it does not reach the decision context in a form that supports judgement, timing, and action.",
+      "methodology": "Policy-output review, decision-system mapping, interpretation of institutional friction, and framework development.",
+      "framework": "Maps the path from signal to interpretation, decision, and consequence, with emphasis on the translation layer.",
+      "outputs": [
+        "Decision-translation framework",
+        "Programme-linked draft output"
+      ],
+      "publication_links": [
+        "the-missing-layer"
+      ],
+      "source_path": "content/projects/the-missing-layer.md"
+    },
+    {
+      "title": "AI-Enabled Manipulation",
+      "slug": "ai-enabled-manipulation",
+      "programme": "youth-safety-and-emerging-risks",
+      "researchAreas": [
+        "ai-technology",
+        "society-behavior",
+        "risk-futures"
+      ],
+      "status": "research in motion",
+      "summary": "A prevention-focused intelligence project on emerging AI-enabled manipulation risks affecting young people.",
+      "overview": "The project tracks how AI systems can make manipulation more scalable, adaptive, personalised, and difficult for institutions to detect early.",
+      "why_it_matters": "Youth-facing digital environments are changing quickly. Prevention-focused intelligence helps institutions identify weak signals before risks become normalised.",
+      "methodology": "Signal collection, source review, scenario mapping, boundary checks, and interpretation are used to separate evidence, inference, and responsible analysis.",
+      "framework": "Maps risk signals across actor capability, target vulnerability, platform affordance, institutional visibility, and intervention window.",
+      "outputs": [
+        "Prevention-focused intelligence brief",
+        "Signal taxonomy",
+        "Methodological boundary note"
+      ],
+      "publication_links": [
+        "ai-enabled-manipulation"
+      ],
+      "source_path": "content/projects/ai-enabled-manipulation.md"
     }
   ],
   "publications": [
@@ -69,8 +211,9 @@
       "title": "The Missing Layer",
       "slug": "the-missing-layer",
       "type": "framework",
-      "programme": "Policy Usability & Decision Systems",
-      "research_area": "Institutions & Governance",
+      "project": "the-missing-layer",
+      "programme": "policy-usability-and-decision-systems",
+      "researchArea": "institutions-governance",
       "status": "draft",
       "date": "2026-06-01",
       "summary": "Why AI policy fails at the point of use and how decision-ready translation mechanisms could help.",
@@ -82,8 +225,9 @@
       "title": "AI-Enabled Manipulation",
       "slug": "ai-enabled-manipulation",
       "type": "brief",
-      "programme": "Youth Safety & Emerging Risks",
-      "research_area": "Risk & Futures",
+      "project": "ai-enabled-manipulation",
+      "programme": "youth-safety-and-emerging-risks",
+      "researchArea": "risk-futures",
       "status": "draft",
       "date": "2026-06-01",
       "summary": "A prevention-focused intelligence brief on emerging AI-enabled manipulation risks affecting young people.",
