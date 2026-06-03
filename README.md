@@ -19,8 +19,17 @@ Singulary Institute
 - `apps/website`: Vite and React public website.
 - `research-infrastructure`: identity, governance, intelligence pipeline, theory, operations, publication, and programmes.
 - `content`: programmes, publications, research areas, methodology, archive policy, and `content-registry.json`.
+- `operations`: AI governance, institutional roles, workflows, templates, prompts, and audits governing repository changes before Codex execution.
 - `docs`: architecture notes and templates.
 - `.github/workflows`: GitHub Pages deployment.
+
+## Operations & AI Governance
+
+Before future repository modifications, work should pass through the operations layer:
+
+Research Director -> Programme Architect -> Grant Strategist -> Editorial Director -> Institutional Auditor -> Codex Implementation Package -> Codex Execution -> Repository Update -> Post-Implementation Audit.
+
+Codex is the execution layer. The governance layer is the decision layer.
 
 ## Content System
 
