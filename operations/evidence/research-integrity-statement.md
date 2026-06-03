@@ -18,3 +18,10 @@ ChatGPT may assist in identifying, organizing, reviewing, extracting, and synthe
 
 ChatGPT may not generate evidence, fabricate observations, fabricate source material, fabricate findings, fabricate datasets, or create unsupported factual claims.
 
+## Evidence Identification vs Evidence Generation
+
+Evidence identification means locating, organizing, reviewing, extracting, comparing, and mapping source material so it can be assessed.
+
+Evidence generation would mean creating new evidence, observations, source material, findings, or datasets. That is outside the role of AI-assisted research workflows in Singulary Institute.
+
+No repository document, publication, registry, or implementation package should imply that evidence appears automatically or that AI systems create evidence.

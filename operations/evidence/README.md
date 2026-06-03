@@ -12,6 +12,12 @@ ChatGPT assists in identifying, organizing, reviewing, extracting, and synthesiz
 
 The Evidence Collector is not responsible for generating evidence, fabricating observations, fabricating source material, fabricating findings, fabricating datasets, or creating unsupported factual claims.
 
+## Appendix Safeguard
+
+Evidence identification is not evidence generation.
+
+No evidence registry, publication trust level, project status, or implementation package may imply that evidence appears automatically. Evidence must come from documented source material and traceable review processes.
+
 ## Files
 
 - `evidence-registry/`
@@ -21,4 +27,3 @@ The Evidence Collector is not responsible for generating evidence, fabricating o
 - `evidence-classification.md`
 - `publication-trust-levels.md`
 - `research-integrity-statement.md`
-

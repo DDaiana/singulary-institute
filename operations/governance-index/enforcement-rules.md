@@ -42,3 +42,4 @@ AI systems may assist interpretation, organization, classification, framework de
 
 AI systems do not constitute evidence and may not generate evidence, fabricate observations, fabricate findings, fabricate datasets, or create unsupported factual claims.
 
+No governance, lifecycle, evidence, publication, or implementation document may imply that evidence appears automatically.
