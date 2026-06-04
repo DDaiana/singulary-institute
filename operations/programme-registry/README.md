@@ -10,6 +10,10 @@ Required fields:
 - Status
 - Lifecycle Stage
 - Research Type
+- Research Mode
+- Evidence Strategy
+- Primary Research Required
+- Evidence Generation Required
 - Evidence Level
 - Source Count
 - Review Status

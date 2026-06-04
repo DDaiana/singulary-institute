@@ -16,6 +16,14 @@ Lifecycle Stage: Stage 3 - Research Architecture
 
 Research Type: Conceptual
 
+Research Mode: Interpretation of Existing Evidence
+
+Evidence Strategy: Policy documents, governance literature, implementation literature, and institutional analysis.
+
+Primary Research Required: No
+
+Evidence Generation Required: No
+
 Evidence Level: Interpretive
 
 Source Count: 0
@@ -45,6 +53,22 @@ Dependencies:
 - publication architecture
 - editorial review plan
 
+Expected Evidence Sources:
+
+- policy documents
+- governance literature
+- implementation literature
+- institutional analysis
+
+Research Requirements:
+
+- source identification
+- evidence registry completion
+- interpretive synthesis
+- editorial review
+
+Trust Classification Path: Developing -> Supported -> Verified
+
 ## AI-Enabled Manipulation
 
 Project Name: AI-Enabled Manipulation
@@ -58,6 +82,14 @@ Status: Under Review
 Lifecycle Stage: Stage 4 - Research in Motion
 
 Research Type: Interpretive
+
+Research Mode: Interpretation of Existing Evidence
+
+Evidence Strategy: Youth-safety literature, AI risk literature, platform policy materials, institutional publications, and prevention-focused analysis.
+
+Primary Research Required: No
+
+Evidence Generation Required: No
 
 Evidence Level: Interpretive
 
@@ -86,3 +118,19 @@ Dependencies:
 - source review
 - methodological boundary check
 - editorial review criteria
+
+Expected Evidence Sources:
+
+- youth-safety literature
+- AI risk literature
+- platform policy materials
+- institutional publications
+
+Research Requirements:
+
+- methodology boundary review
+- source identification
+- evidence registry completion
+- editorial review
+
+Trust Classification Path: Developing -> Supported -> Verified

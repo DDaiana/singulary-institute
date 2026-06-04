@@ -10,6 +10,10 @@ Strategic Purpose:
 
 Research Question:
 
+Research Mode:
+
+Evidence Strategy:
+
 Institutional Fit:
 
 Expected Outputs:
@@ -46,4 +50,3 @@ Expected Outputs:
 - files created
 - files modified
 - final repository tree
-

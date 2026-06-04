@@ -36,6 +36,16 @@ No publication may receive trust classification without evidence classification.
 
 No repository implementation may proceed without an implementation package.
 
+## Research Mode Rules
+
+Every project must have a Research Mode.
+
+No publication may proceed without an Evidence Strategy.
+
+No Generation of New Evidence project may proceed without Research Design.
+
+No trust classification may be assigned without evidence review.
+
 ## Integrity Rules
 
 AI systems may assist interpretation, organization, classification, framework development, and synthesis from traceable source material.

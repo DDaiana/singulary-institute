@@ -85,3 +85,19 @@ No publication may be classified as Evidence-Based unless sources are documented
 
 No publication may be classified as Peer-Reviewed unless external review is documented.
 
+## Research Mode Integration
+
+Interpretive publications may achieve:
+
+- Developing
+- Supported
+- Verified
+
+Primary research publications may achieve:
+
+- Developing
+- Supported
+- Verified
+- Peer-Reviewed
+
+Peer-Reviewed status requires external review documentation regardless of research mode.

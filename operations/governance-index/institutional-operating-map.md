@@ -90,9 +90,16 @@ Evidence Layer:
 - manages trust levels
 - manages review status
 
+Research Mode Engine:
+
+- classifies projects as Interpretation of Existing Evidence or Generation of New Evidence
+- determines evidence strategy
+- determines whether primary research is required
+- determines whether evidence generation requirements apply
+- determines trust classification pathway
+
 ## Boundary
 
 Evidence identification is not evidence generation.
 
 AI systems may assist interpretation, synthesis, organization, classification, and framework development. AI systems do not constitute evidence and may not fabricate sources, observations, findings, or datasets.
-

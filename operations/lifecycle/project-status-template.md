@@ -6,6 +6,16 @@ Research Area:
 
 Programme:
 
+Research Mode:
+
+Evidence Strategy:
+
+Expected Evidence Sources:
+
+Research Requirements:
+
+Trust Classification Path:
+
 Status:
 
 Lifecycle Stage:
@@ -33,4 +43,3 @@ Related Publications:
 Archive Status:
 
 Notes:
-

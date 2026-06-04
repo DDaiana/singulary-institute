@@ -24,6 +24,8 @@ Roles:
 
 The Research OS evaluates ideas, maps evidence, synthesizes source material, determines programme placement, assesses grants, defines publication architecture, and audits institutional health.
 
+The Research OS also selects the research mode before research begins: Interpretation of Existing Evidence or Generation of New Evidence.
+
 Evidence Collector safeguard:
 
 ChatGPT assists in identifying, organizing, reviewing, extracting, and synthesizing evidence from traceable sources provided through research workflows. ChatGPT does not generate evidence, source material, observations, findings, or datasets.
@@ -74,4 +76,3 @@ Evidence Layer controls sources, evidence classification, trust level, and revie
 The Research OS uses all three layers to generate implementation packages.
 
 The Execution OS implements approved packages and records post-implementation audits.
-

@@ -37,6 +37,8 @@ You -> ChatGPT Research OS -> Codex Execution OS -> Singulary Institute.
 
 The evidence layer distinguishes evidence identification from evidence generation. AI systems may assist interpretation, synthesis, organization, classification, and framework development, but they do not constitute evidence.
 
+The Research Mode Engine classifies each project as either Interpretation of Existing Evidence or Generation of New Evidence before evidence, publication, and trust pathways are selected.
+
 ## Content System
 
 The website imports `content/content-registry.json`. Adding a publication to the registry with a programme and research area automatically surfaces it in Publications, Archive, related Programme views, and related Research Area counts.

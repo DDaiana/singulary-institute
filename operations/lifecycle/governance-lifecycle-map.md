@@ -116,10 +116,10 @@ Publications:
 
 ## Project Lifecycle Positions
 
-| Project | Research Area | Programme | Status | Stage | Next Required Action |
-| --- | --- | --- | --- | --- | --- |
-| The Missing Layer | Institutions & Governance | Policy Usability & Decision Systems | Approved | Stage 3 - Research Architecture | Develop methodology framework and first publication architecture |
-| AI-Enabled Manipulation | Risk & Futures | Youth Safety & Emerging Risks | Under Review | Stage 4 - Research in Motion | Confirm prevention-focused methodology boundaries and define editorial review requirements |
+| Project | Research Area | Programme | Research Mode | Status | Stage | Next Required Action |
+| --- | --- | --- | --- | --- | --- | --- |
+| The Missing Layer | Institutions & Governance | Policy Usability & Decision Systems | Interpretation of Existing Evidence | Approved | Stage 3 - Research Architecture | Develop methodology framework and first publication architecture |
+| AI-Enabled Manipulation | Risk & Futures | Youth Safety & Emerging Risks | Interpretation of Existing Evidence | Under Review | Stage 4 - Research in Motion | Confirm prevention-focused methodology boundaries and define editorial review requirements |
 
 ## Publication Lifecycle Positions
 
@@ -127,4 +127,3 @@ Publications:
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | The Missing Layer | Framework | The Missing Layer | Policy Usability & Decision Systems | Institutions & Governance | Drafting | Stage 5 - Draft Output | Not yet in editorial review | Not archived | Develop publication architecture before editorial review |
 | AI-Enabled Manipulation | Research Brief | AI-Enabled Manipulation | Youth Safety & Emerging Risks | Risk & Futures | Drafting | Stage 5 - Draft Output | Not yet in editorial review | Not archived | Confirm scope and methodology boundaries before editorial review |
-

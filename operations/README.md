@@ -26,6 +26,7 @@ Codex is the execution layer. The governance layer is the decision layer.
 - `operating-system/`: Research OS, Execution OS, operating model, and responsibilities matrix.
 - `lifecycle/`: lifecycle stages, status definitions, and status templates.
 - `evidence/`: evidence classification, trust levels, source tracking, review workflow, and research integrity policy.
+- `research-modes/`: research mode classification, decision tree, interpretation workflow, and new-evidence workflow.
 - `roles/`: institutional decision roles and required outputs.
 - `workflows/`: operating workflows for research, programmes, grants, publications, and institutional review.
 - `templates/`: structured assessment and implementation templates.

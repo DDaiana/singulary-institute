@@ -10,6 +10,14 @@ Stage: Research Architecture Complete
 
 Research Type: Conceptual
 
+Research Mode: Interpretation of Existing Evidence
+
+Evidence Strategy: Policy documents, governance literature, implementation literature, and institutional analysis.
+
+Primary Research Required: No
+
+Evidence Generation Required: No
+
 Evidence Level: Interpretive
 
 Trust Level: Developing
@@ -23,4 +31,3 @@ Review Status: Evidence registry placeholder created; source review not complete
 No evidence, findings, or conclusions are generated in this registry.
 
 This registry is prepared to track traceable sources once they are identified through the research workflow.
-

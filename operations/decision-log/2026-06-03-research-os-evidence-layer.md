@@ -36,3 +36,6 @@ ChatGPT does not generate evidence, fabricate observations, fabricate source mat
 
 Future repository changes must enter through Research OS assessment and produce an implementation package before Codex execution.
 
+## Research Mode Addendum
+
+Every project must now be classified as either Interpretation of Existing Evidence or Generation of New Evidence before implementation.

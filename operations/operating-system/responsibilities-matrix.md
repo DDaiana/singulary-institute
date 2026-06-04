@@ -3,6 +3,7 @@
 | Task | Owner | Notes |
 | --- | --- | --- |
 | Research Question | Research OS | Research Director defines and tests strategic value. |
+| Research Mode Selection | Research OS | Research Director determines Interpretation of Existing Evidence or Generation of New Evidence before research begins. |
 | Evidence Identification | Research OS | Evidence Collector assists in identifying potentially relevant traceable sources. |
 | Evidence Organization | Research OS | Evidence Collector organizes source material and maintains evidence registries. |
 | Evidence Extraction | Research OS | Evidence Collector extracts observations from documented sources only. |
@@ -24,4 +25,3 @@
 The Research OS decides. The Execution OS implements.
 
 ChatGPT may assist in identifying, organizing, reviewing, extracting, and synthesizing evidence from traceable sources provided through research workflows. It may not generate evidence, fabricate observations, or claim findings without documented sources.
-

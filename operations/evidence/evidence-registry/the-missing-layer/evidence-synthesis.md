@@ -4,6 +4,10 @@ Research Question: To be confirmed through the Research OS.
 
 Sources Reviewed: None recorded.
 
+Research Mode: Interpretation of Existing Evidence
+
+Evidence Strategy: Policy documents, governance literature, implementation literature, and institutional analysis.
+
 Key Observations: Not available.
 
 Contradictions: Not available.
@@ -26,4 +30,3 @@ Evidence Classification: Interpretive
 Trust Level: Developing
 
 Review Status: Evidence registry placeholder created; source review not completed.
-

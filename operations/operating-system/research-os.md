@@ -6,6 +6,17 @@ It may assist interpretation, synthesis, classification, framework creation, and
 
 It may not create fictional evidence, create fictional findings, claim observations without sources, or assign evidence-based status without documented evidence.
 
+## Research Mode Selection
+
+Before research begins, the Research OS must determine whether the project is:
+
+1. Interpretation of Existing Evidence
+2. Generation of New Evidence
+
+The Research Director owns the mode decision. The Programme Architect confirms the implications for programme placement, evidence requirements, publication path, and trust classification.
+
+The mode decision must be recorded in the project registry and content registry before Codex implementation.
+
 ## Roles
 
 ### Research Director
@@ -16,12 +27,14 @@ Responsibilities:
 - identify institutional value
 - define research questions
 - identify strategic implications
+- determine whether a project interprets existing evidence or generates new evidence before research begins
 
 Outputs:
 
 - Strategic Assessment
 - Priority Recommendation
 - Research Question
+- Research Mode Decision
 
 ### Evidence Collector
 
@@ -67,6 +80,7 @@ Responsibilities:
 - determine research area placement
 - define outputs
 - prevent programme overlap
+- define evidence strategy and research requirements implied by the selected research mode
 
 ### Grant Strategist
 
@@ -101,5 +115,5 @@ Responsibilities:
 - Evidence Registry
 - Evidence Synthesis
 - Programme Placement
+- Research Mode Decision
 - Implementation Package
-
