@@ -1,63 +1,34 @@
 # Operations
 
-This directory is the institutional operating system for Singulary Institute.
+This directory contains public-safe governance summaries for Singulary Institute.
 
-It governs how ideas, opportunities, grants, programmes, projects, publications, and repository changes move from proposal to implementation. It is not a documentation folder, a prompt library, or a website feature.
+GitHub is the Public Delivery Layer. It is not the institutional source of truth.
 
-## Operating Rule
+The Private Operating Brain is the institutional source of truth and remains local-only in `_private/`.
 
-Before any repository modification, the initiative must pass through:
+## Public Structure
 
-1. Research Director
-2. Programme Architect
-3. Grant Strategist
-4. Editorial Director
-5. Institutional Auditor
-6. Codex Implementation Package
-7. Codex Execution
-8. Repository Update
-9. Post-Implementation Audit
+- `public-governance/`: high-level governance principles suitable for public release.
+- `privacy-boundary/`: public/private separation, classification, export, and sanitization policies.
 
-Codex is the execution layer. The governance layer is the decision layer.
+## Not Stored Publicly
 
-## Structure
+The public repository does not contain:
 
-- `ai-governance/`: governance rules above Codex execution.
-- `operating-system/`: Research OS, Execution OS, operating model, and responsibilities matrix.
-- `lifecycle/`: lifecycle stages, status definitions, and status templates.
-- `evidence/`: evidence classification, trust levels, source tracking, review workflow, and research integrity policy.
-- `research-modes/`: research mode classification, decision tree, interpretation workflow, and new-evidence workflow.
-- `privacy-boundary/`: public/private repository boundary and local-only private operating brain protection.
-- `roles/`: institutional decision roles and required outputs.
-- `workflows/`: operating workflows for research, programmes, grants, publications, and institutional review.
-- `templates/`: structured assessment and implementation templates.
-- `prompts/`: role prompts used inside governed workflows.
-- `audits/`: repository state, post-implementation, fragmentation, and maintenance audits.
-- `assessments/`: pre-implementation assessments.
-- `implementation-packages/`: approved packages for Codex execution.
-- `decision-log/`: decisions affecting repository architecture and governance.
-- `programme-registry/`, `project-registry/`, `publication-registry/`: lifecycle and evidence control indexes.
-- `governance-index/`: enforcement rules and governance coverage.
-
-## Integration
-
-The operations layer must be referenced before changes to:
-
-- research areas
-- programmes
-- projects / research in motion
-- publications / outputs
-- archive entries
+- operating logic
+- internal governance logic
+- internal prompts
+- strategic assessments
+- opportunity scoring
 - grant strategy
-- website routes or public pages
-- content registry relationships
-- lifecycle status and stage
-- evidence classification and trust level
+- private decision records
+- internal research notes
+- private evidence notes
+- implementation packages
+- internal audits
 
-## Operating Model
+## Export Model
 
-You -> ChatGPT Research OS -> Codex Execution OS -> Singulary Institute.
+Private Operating Brain -> Public Export Package -> Public Repository -> Website.
 
-The Research OS decides research direction, evidence handling, programme placement, grant fit, editorial classification, and institutional audit.
-
-The Execution OS implements approved packages. Codex is the execution layer, not the strategic decision layer.
+Only public-safe export packages should be committed to GitHub.

@@ -1,43 +1,42 @@
 # Singulary Institute
 
-Singulary Institute is a repository-backed research institution. The public website is only the interface; the repository holds the research infrastructure, content model, publication pipeline, contributor system, governance, and deployable website.
+Singulary Institute is a public research interface backed by a local private operating brain.
+
+The GitHub repository is the Public Delivery Layer. It contains public-safe website, content, methodology, governance summaries, and publication materials.
+
+The local Private Operating Brain is the institutional source of truth. It holds internal research logic, strategic assessments, evidence notes, opportunity review, grant strategy, implementation packages, and private governance materials.
 
 ## Architecture
 
 ```text
-Singulary Institute
-├── Research Infrastructure
-├── Content System
-├── Publication System
-├── Contributor System
-├── Governance System
-└── Public Website
+Private Operating Brain
+└── Public Export Package
+    └── Public Repository
+        └── Website
 ```
 
 ## Repository Structure
 
 - `apps/website`: Vite and React public website.
-- `research-infrastructure`: identity, governance, intelligence pipeline, theory, operations, publication, and programmes.
+- `research-infrastructure`: public identity, governance summaries, intelligence taxonomy, theory, publication, and programme materials.
 - `content`: programmes, publications, research areas, methodology, archive policy, and `content-registry.json`.
-- `operations`: AI governance, operating system definitions, lifecycle management, evidence layer, institutional roles, workflows, registries, templates, prompts, audits, decision logs, and implementation packages governing repository changes before Codex execution.
+- `operations`: public-safe governance summaries and public/private boundary policies.
 - `docs`: architecture notes and templates.
 - `.github/workflows`: GitHub Pages deployment.
 
-## Operations & AI Governance
+## Public / Private Boundary
 
-Before future repository modifications, work should pass through the operations layer:
+Before future public repository modifications, work should pass through the private operating brain and then be exported as a public-safe package.
 
-Research Director -> Programme Architect -> Grant Strategist -> Editorial Director -> Institutional Auditor -> Codex Implementation Package -> Codex Execution -> Repository Update -> Post-Implementation Audit.
+Private Operating Brain -> Public Export Package -> Public Repository -> Website.
 
-Codex is the execution layer. The governance layer is the decision layer.
+GitHub is not the source of truth.
 
-The completed operating model is:
+The public repository must not contain private prompts, strategic assessments, opportunity scoring, grant strategy, private decision records, internal research notes, private evidence notes, implementation packages, or internal audits.
 
-You -> ChatGPT Research OS -> Codex Execution OS -> Singulary Institute.
+## Public Governance
 
-The evidence layer distinguishes evidence identification from evidence generation. AI systems may assist interpretation, synthesis, organization, classification, and framework development, but they do not constitute evidence.
-
-The Research Mode Engine classifies each project as either Interpretation of Existing Evidence or Generation of New Evidence before evidence, publication, and trust pathways are selected.
+Public governance materials explain high-level principles only. Internal operating logic remains local-only.
 
 ## Content System
 

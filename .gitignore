@@ -14,3 +14,15 @@ sensitive/
 *.private.md
 *.internal.md
 *.draft-private.md
+research-os/
+governance-os/
+evidence-os/
+grant-engine/
+decision-engine/
+implementation-packages/
+strategic-assessments/
+opportunity-assessments/
+private-prompts/
+internal-audits/
+source-notes/
+unpublished-research/

@@ -24,3 +24,8 @@ This folder must be excluded from Git.
 
 The private operating brain is local-only. It is not part of the public GitHub output layer.
 
+## Source Of Truth
+
+The Private Operating Brain is the institutional source of truth.
+
+GitHub is a public delivery layer that receives cleared exports only.
