@@ -8,8 +8,11 @@ domains:
   - youth safety
   - online harms
   - AI-enabled manipulation
-active_projects:
-  - AI-Enabled Manipulation
+project_visibility: Private projects remain under institutional review before public release.
+public_assets:
+  - AI Manipulation Navigator
+  - Youth Digital Risk Map
+  - AI Risk Signals for Young People
 ---
 
 # Youth Safety & Emerging Risks

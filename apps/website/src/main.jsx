@@ -37,6 +37,10 @@ const areaMeta = {
 
 const typeLabels = {
   framework: 'Framework',
+  'working-paper': 'Working Paper',
+  'research-brief': 'Research Brief',
+  'methodology-note': 'Methodology Note',
+  explainer: 'Explainer',
   brief: 'Research Brief',
   'signal-report': 'Signal Report',
   essay: 'Essay',
@@ -60,22 +64,25 @@ function useContent() {
       areas: project.researchAreas.map((slug) => areaBySlug[slug]).filter(Boolean),
     }));
     const projectBySlug = Object.fromEntries(projects.map((project) => [project.slug, project]));
+    const categories = registry.publicationCategories || [];
     const publications = registry.publications
       .filter((publication) => publication.public)
       .map((publication) => ({
         ...publication,
-        href: `#/projects/${publication.project}`,
-        projectData: projectBySlug[publication.project],
+        href: `#/publications/${publication.slug}`,
         programmeData: programmeBySlug[publication.programme],
         areaData: areaBySlug[publication.researchArea],
       }));
 
-    return { areas, programmes, projects, publications, programmeBySlug, projectBySlug, areaBySlug };
+    return { areas, programmes, projects, publications, categories, programmeBySlug, projectBySlug, areaBySlug };
   }, []);
 }
 
 function formatDate(value) {
-  return new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }).format(new Date(value));
+  if (!value) return 'Planned';
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return 'Planned';
+  return new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }).format(date);
 }
 
 function getRoute() {
@@ -235,7 +242,7 @@ function Hero() {
 }
 
 function Home() {
-  const { areas, programmes, projects } = useContent();
+  const { areas, programmes } = useContent();
   return (
     <Shell active="home">
       <Hero />
@@ -277,9 +284,10 @@ function Home() {
             <p className="eyebrow">Projects</p>
           </div>
         </div>
-        <div className="list compact-list">
-          {projects.map((project, index) => <ProjectCard key={project.slug} project={project} img={index} />)}
-        </div>
+        <article className="method-card">
+          <h3>Public release boundary</h3>
+          <p>Selected projects remain under institutional review, evidence development, or publication preparation before public release.</p>
+        </article>
       </section>
     </Shell>
   );
@@ -308,21 +316,29 @@ function PublicationFilters({ publications }) {
     <div className="filter">
       <button>All Publications <span>{publications.length}</span></button>
       {entries.map(([type, count]) => (
-        <button key={type}>{typeLabels[type] || type} <span>{count}</span></button>
+        <a className="filter-link" href={`#/publications/category/${type}`} key={type}>{typeLabels[type] || type} <span>{count}</span></a>
       ))}
     </div>
   );
 }
 
 function Publications() {
-  const { publications } = useContent();
+  const { publications, categories } = useContent();
   return (
     <Shell active="publications">
       <section className="page two-col">
         <div>
           <h1>Research publications</h1>
-          <p className="lead">Work in progress: the papers are not yet finalised. Draft outputs are shown with their project, programme, research area, and current status.</p>
+          <p className="lead">Work in progress: the papers are not yet finalised. Planned public outputs are shown by format, programme, research area, and current status.</p>
           <PublicationFilters publications={publications} />
+          <div className="category-stack">
+            {categories.map((category) => (
+              <a href={`#/publications/category/${category.type}`} key={category.slug}>
+                <b>{category.title}</b>
+                <span>{category.summary}</span>
+              </a>
+            ))}
+          </div>
         </div>
         <div className="list">
           {publications.map((publication, index) => <Publication key={publication.slug} publication={publication} img={index} />)}
@@ -341,11 +357,67 @@ function Publication({ publication, img, compact = false }) {
         <h3>{publication.title}</h3>
         <p>{publication.summary}</p>
         <span>
-          {formatDate(publication.date)} · {publication.projectData?.title} · {publication.programmeData?.title} · {publication.areaData?.title}
+          Source project: {publication.source_project_visibility || 'Private'} · {publication.programmeData?.title} · {publication.areaData?.title}
         </span>
       </div>
       <ArrowRight size={18} />
     </a>
+  );
+}
+
+function PublicationCategory({ type }) {
+  const { publications, categories } = useContent();
+  const category = categories.find((item) => item.type === type);
+  const filtered = publications.filter((publication) => publication.type === type);
+
+  if (!category) return <Publications />;
+
+  return (
+    <Shell active="publications">
+      <section className="page">
+        <p className="eyebrow">Publication Category</p>
+        <h1>{category.title}</h1>
+        <p className="lead">{category.summary}</p>
+        <div className="list programme-projects">
+          {filtered.length ? filtered.map((publication, index) => <Publication key={publication.slug} publication={publication} img={index} />) : <EmptyState text="No public output is currently listed for this category." />}
+        </div>
+      </section>
+    </Shell>
+  );
+}
+
+function PublicationDetail({ slug }) {
+  const { publications } = useContent();
+  const publication = publications.find((item) => item.slug === slug);
+
+  if (!publication) return <Publications />;
+
+  return (
+    <Shell active="publications">
+      <section className="page programme-detail">
+        <p className="eyebrow">{typeLabels[publication.type] || publication.type}</p>
+        <h1>{publication.title}</h1>
+        <p className="lead">{publication.summary}</p>
+        <div className="detail-grid">
+          <article className="method-card">
+            <h3>Status</h3>
+            <p>{publication.status}</p>
+          </article>
+          <article className="method-card">
+            <h3>Public release boundary</h3>
+            <p>Source project: {publication.source_project_visibility || 'Private'}. The underlying project remains private until cleared for publication.</p>
+          </article>
+          <article className="method-card">
+            <h3>Programme</h3>
+            <p>{publication.programmeData?.title}</p>
+          </article>
+          <article className="method-card">
+            <h3>Research area</h3>
+            <p>{publication.areaData?.title}</p>
+          </article>
+        </div>
+      </section>
+    </Shell>
   );
 }
 
@@ -373,7 +445,6 @@ function ResearchAreas({ slug }) {
 function ResearchAreaDetail({ area }) {
   const { programmes, projects, publications } = useContent();
   const relatedProgrammes = programmes.filter((programme) => programme.researchAreas.includes(area.slug));
-  const relatedProjects = projects.filter((project) => project.researchAreas.includes(area.slug));
   const relatedPublications = publications.filter((publication) => publication.researchArea === area.slug);
 
   return (
@@ -399,10 +470,10 @@ function ResearchAreaDetail({ area }) {
             ))}
           </div>
         </ContentSection>
-        <ContentSection eyebrow="Projects" title="Active projects">
-          <div className="list programme-projects">
-            {relatedProjects.length ? relatedProjects.map((project, index) => <ProjectCard key={project.slug} project={project} img={index} />) : <EmptyState text="No active project is currently published for this area." />}
-          </div>
+        <ContentSection eyebrow="Projects" title="Project visibility">
+          <article className="method-card">
+            <p>Selected projects remain under institutional review, evidence development, or publication preparation before public release.</p>
+          </article>
         </ContentSection>
         <ContentSection eyebrow="Outputs" title="Related publications / outputs">
           <div className="list programme-projects">
@@ -420,7 +491,6 @@ function ProgrammeDetail({ slug }) {
 
   if (!programme) return <Home />;
 
-  const activeProjects = projects.filter((project) => project.programme === programme.slug);
   const outputs = publications.filter((publication) => publication.programme === programme.slug);
 
   return (
@@ -443,10 +513,10 @@ function ProgrammeDetail({ slug }) {
             <p>{programme.status}</p>
           </article>
         </div>
-        <ContentSection eyebrow="Projects" title="Active projects / Research in Motion">
-          <div className="list programme-projects">
-            {activeProjects.length ? activeProjects.map((project, index) => <ProjectCard key={project.slug} project={project} img={index} />) : <EmptyState text="No public active project is currently listed for this programme." />}
-          </div>
+        <ContentSection eyebrow="Projects" title="Project visibility">
+          <article className="method-card">
+            <p>Selected projects remain under institutional review, evidence development, or publication preparation before public release.</p>
+          </article>
         </ContentSection>
         <ContentSection eyebrow="Outputs" title="Outputs / Publications">
           <div className="list programme-projects">
@@ -651,14 +721,18 @@ function App() {
   }, []);
 
   const [, areaSlug] = route.match(/^research-areas\/([^/]+)/) || [];
+  const [, publicationCategory] = route.match(/^publications\/category\/([^/]+)/) || [];
+  const [, publicationSlug] = route.match(/^publications\/([^/]+)/) || [];
   const [, programmeSlug] = route.match(/^programmes\/([^/]+)/) || [];
   const [, projectSlug] = route.match(/^projects\/([^/]+)/) || [];
 
   if (route === '' || route === '/') return <Home />;
   if (route === 'publications') return <Publications />;
+  if (publicationCategory) return <PublicationCategory type={publicationCategory} />;
+  if (publicationSlug) return <PublicationDetail slug={publicationSlug} />;
   if (route === 'research-areas' || areaSlug) return <ResearchAreas slug={areaSlug} />;
   if (programmeSlug) return <ProgrammeDetail slug={programmeSlug} />;
-  if (projectSlug) return <ProjectDetail slug={projectSlug} />;
+  if (projectSlug) return <Home />;
   if (route === 'methodology') return <Methodology />;
   if (route === 'archive') return <Archive />;
   if (route === 'governance') return <Governance />;

@@ -10,6 +10,8 @@ The Private Operating Brain is the institutional source of truth and remains loc
 
 - `public-governance/`: high-level governance principles suitable for public release.
 - `privacy-boundary/`: public/private separation, classification, export, and sanitization policies.
+- `knowledge-assets/`: public-safe knowledge asset model, asset types, registry, and opportunity support framework.
+- `public-output-engine/`: public-safe output types, output registry, workflow, and portfolio planning.
 
 ## Not Stored Publicly
 
@@ -32,3 +34,9 @@ The public repository does not contain:
 Private Operating Brain -> Public Export Package -> Public Repository -> Website.
 
 Only public-safe export packages should be committed to GitHub.
+
+## Public Output Model
+
+Private Project -> Evidence Synthesis -> Knowledge Asset -> Editorial Review -> Public Output -> Website -> Opportunity Portfolio.
+
+Private projects remain private. Public outputs may appear when they are cleared for release.

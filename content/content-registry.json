@@ -5,8 +5,9 @@
     "research_infrastructure": "../research-infrastructure",
     "content": "../content",
     "website": "../apps/website",
-    "canonical_hierarchy": "Research Area -> Programme -> Project / Research in Motion -> Publication / Output",
-    "publication_pipeline": "Draft -> Review -> Approved -> Website -> LinkedIn -> Archive"
+    "canonical_hierarchy": "Research Area -> Programme -> Knowledge Asset -> Public Output",
+    "publication_pipeline": "Draft -> Review -> Approved -> Website -> LinkedIn -> Archive",
+    "public_output_pipeline": "Private Project -> Evidence Synthesis -> Knowledge Asset -> Editorial Review -> Public Output -> Website -> Opportunity Portfolio"
   },
   "researchAreas": [
     {
@@ -86,15 +87,9 @@
         "ai-technology",
         "institutions-governance"
       ],
-      "projects": [
-        "the-missing-layer"
-      ],
+      "projects": [],
       "methodology": "Decision-context mapping, policy-output review, institutional boundary analysis, and translation-layer modelling.",
       "status": "Approved",
-      "stage": "Stage 3 - Research Architecture",
-      "research_type": "Conceptual",
-      "research_mode": "Interpretation of Existing Evidence",
-      "evidence_strategy": "Policy documents, governance literature, implementation literature, and institutional analysis.",
       "path": "content/programmes/policy-usability-and-decision-systems.md"
     },
     {
@@ -112,15 +107,9 @@
         "society-behavior",
         "risk-futures"
       ],
-      "projects": [
-        "ai-enabled-manipulation"
-      ],
+      "projects": [],
       "methodology": "Prevention-focused signal collection, source review, scenario mapping, methodological boundary checks, and responsible interpretation.",
       "status": "Under Review",
-      "stage": "Stage 4 - Research in Motion",
-      "research_type": "Interpretive",
-      "research_mode": "Interpretation of Existing Evidence",
-      "evidence_strategy": "Review of youth-safety literature, AI risk literature, platform policy materials, institutional publications, and prevention-focused analysis.",
       "path": "content/programmes/youth-safety-and-emerging-risks.md"
     },
     {
@@ -142,10 +131,6 @@
       "projects": [],
       "methodology": "Signal tagging, source registry maintenance, cross-domain interpretation, and consequence mapping.",
       "status": "Under Review",
-      "stage": "Stage 2 - Programme Placement",
-      "research_type": "Conceptual",
-      "research_mode": "Interpretation of Existing Evidence",
-      "evidence_strategy": "Signal monitoring from institutional publications, datasets, reports, and public innovation ecosystem materials.",
       "path": "content/programmes/innovation-intelligence-and-signal-detection.md"
     },
     {
@@ -165,101 +150,318 @@
       "projects": [],
       "methodology": "Institutional mapping, policy-system review, ecosystem signal analysis, and decision-context interpretation.",
       "status": "Under Review",
-      "stage": "Stage 2 - Programme Placement",
-      "research_type": "Conceptual",
-      "research_mode": "Interpretation of Existing Evidence",
-      "evidence_strategy": "European policy documents, funding programme materials, institutional reports, and innovation ecosystem literature.",
       "path": "content/programmes/european-innovation-ecosystems.md"
     }
   ],
-  "projects": [
-    {
-      "title": "The Missing Layer",
-      "slug": "the-missing-layer",
-      "programme": "policy-usability-and-decision-systems",
-      "researchAreas": [
-        "ai-technology",
-        "institutions-governance"
-      ],
-      "status": "Approved",
-      "stage": "Stage 3 - Research Architecture",
-      "research_type": "Conceptual",
-      "research_mode": "Interpretation of Existing Evidence",
-      "evidence_strategy": "Policy documents, governance literature, implementation literature, and institutional analysis.",
-      "current_position": "Research in Motion",
-      "summary": "The Missing Layer investigates why AI policy and innovation outputs often fail at the point of use, and how decision-ready translation mechanisms could improve institutional usability.",
-      "overview": "The Missing Layer investigates why AI policy and innovation outputs often fail at the point of use, and how decision-ready translation mechanisms could improve institutional usability.",
-      "why_it_matters": "Policy can be rigorous and still unusable if it does not reach the decision context in a form that supports judgement, timing, and action.",
-      "methodology": "Policy-output review, decision-system mapping, interpretation of institutional friction, and framework development.",
-      "framework": "Maps the path from signal to interpretation, decision, and consequence, with emphasis on the translation layer.",
-      "source_path": "content/projects/the-missing-layer.md"
-    },
-    {
-      "title": "AI-Enabled Manipulation",
-      "slug": "ai-enabled-manipulation",
-      "programme": "youth-safety-and-emerging-risks",
-      "researchAreas": [
-        "ai-technology",
-        "society-behavior",
-        "risk-futures"
-      ],
-      "status": "Under Review",
-      "stage": "Stage 4 - Research in Motion",
-      "research_type": "Interpretive",
-      "research_mode": "Interpretation of Existing Evidence",
-      "evidence_strategy": "Youth-safety literature, AI risk literature, platform policy materials, institutional publications, and prevention-focused analysis.",
-      "current_position": "Research in Motion",
-      "summary": "A prevention-focused intelligence project on emerging AI-enabled manipulation risks affecting young people.",
-      "overview": "The project tracks how AI systems can make manipulation more scalable, adaptive, personalised, and difficult for institutions to detect early.",
-      "why_it_matters": "Youth-facing digital environments are changing quickly. Prevention-focused intelligence helps institutions identify weak signals before risks become normalised.",
-      "methodology": "Signal collection, source review, scenario mapping, boundary checks, and interpretation are used to separate evidence, inference, and responsible analysis.",
-      "framework": "Maps risk signals across actor capability, target vulnerability, platform affordance, institutional visibility, and intervention window.",
-      "source_path": "content/projects/ai-enabled-manipulation.md"
-    }
-  ],
+  "projects": [],
   "publications": [
     {
-      "title": "The Missing Layer",
-      "slug": "the-missing-layer",
+      "title": "Decision Usability Framework",
+      "slug": "decision-usability-framework",
       "type": "framework",
-      "project": "the-missing-layer",
       "programme": "policy-usability-and-decision-systems",
       "researchArea": "institutions-governance",
-      "status": "Drafting",
-      "stage": "Stage 5 - Draft Output",
-      "research_type": "Conceptual",
-      "research_mode": "Interpretation of Existing Evidence",
-      "evidence_strategy": "Policy documents, governance literature, implementation literature, and institutional analysis.",
-      "date": "2026-06-01",
-      "summary": "The Missing Layer investigates why AI policy and innovation outputs often fail at the point of use, and how decision-ready translation mechanisms could improve institutional usability.",
-      "tags": [
-        "policy usability",
-        "decision systems",
-        "AI governance"
-      ],
-      "source_path": "content/publications/the-missing-layer.md",
+      "status": "Planned",
+      "source_project_visibility": "Private",
+      "website_visibility": "Public placeholder",
+      "summary": "Planned framework for assessing whether policy and governance materials can support real decisions.",
       "public": true
     },
     {
-      "title": "AI-Enabled Manipulation",
-      "slug": "ai-enabled-manipulation",
-      "type": "brief",
-      "project": "ai-enabled-manipulation",
+      "title": "Institutional Translation Taxonomy",
+      "slug": "institutional-translation-taxonomy",
+      "type": "framework",
+      "programme": "policy-usability-and-decision-systems",
+      "researchArea": "institutions-governance",
+      "status": "Planned",
+      "source_project_visibility": "Private",
+      "website_visibility": "Public placeholder",
+      "summary": "Planned taxonomy for describing how institutional analysis becomes usable guidance.",
+      "public": true
+    },
+    {
+      "title": "Decision Brief Architecture",
+      "slug": "decision-brief-architecture",
+      "type": "methodology-note",
+      "programme": "policy-usability-and-decision-systems",
+      "researchArea": "institutions-governance",
+      "status": "Planned",
+      "source_project_visibility": "Private",
+      "website_visibility": "Public placeholder",
+      "summary": "Planned methodology note for structuring decision-ready brief formats.",
+      "public": true
+    },
+    {
+      "title": "Why Policy Fails at the Point of Use",
+      "slug": "why-policy-fails-at-the-point-of-use",
+      "type": "explainer",
+      "programme": "policy-usability-and-decision-systems",
+      "researchArea": "institutions-governance",
+      "status": "Planned",
+      "source_project_visibility": "Private",
+      "website_visibility": "Public placeholder",
+      "summary": "Planned explainer on the gap between policy outputs and practical institutional use.",
+      "public": true
+    },
+    {
+      "title": "Assessing Decision Usability in AI Governance Documents",
+      "slug": "assessing-decision-usability-in-ai-governance-documents",
+      "type": "working-paper",
+      "programme": "policy-usability-and-decision-systems",
+      "researchArea": "ai-technology",
+      "status": "Planned",
+      "source_project_visibility": "Private",
+      "website_visibility": "Public placeholder",
+      "summary": "Planned working paper structure for assessing decision usability in AI governance documents.",
+      "public": true
+    },
+    {
+      "title": "AI Manipulation Navigator",
+      "slug": "ai-manipulation-navigator",
+      "type": "framework",
       "programme": "youth-safety-and-emerging-risks",
       "researchArea": "risk-futures",
-      "status": "Drafting",
-      "stage": "Stage 5 - Draft Output",
-      "research_type": "Interpretive",
-      "research_mode": "Interpretation of Existing Evidence",
-      "evidence_strategy": "Youth-safety literature, AI risk literature, platform policy materials, institutional publications, and prevention-focused analysis.",
-      "date": "2026-06-01",
-      "summary": "A prevention-focused intelligence brief on emerging AI-enabled manipulation risks affecting young people.",
-      "tags": [
-        "youth safety",
-        "AI manipulation",
-        "emerging risks"
-      ],
-      "source_path": "content/publications/ai-enabled-manipulation.md",
+      "status": "Planned",
+      "source_project_visibility": "Private",
+      "website_visibility": "Public placeholder",
+      "summary": "Planned framework for interpreting AI-enabled influence risks in public-interest contexts.",
+      "public": true
+    },
+    {
+      "title": "Understanding Synthetic Media",
+      "slug": "understanding-synthetic-media",
+      "type": "explainer",
+      "programme": "youth-safety-and-emerging-risks",
+      "researchArea": "ai-technology",
+      "status": "Planned",
+      "source_project_visibility": "Private",
+      "website_visibility": "Public placeholder",
+      "summary": "Planned explainer on synthetic media concepts, boundaries, and public-interest questions.",
+      "public": true
+    },
+    {
+      "title": "Recognising Digital Influence Systems",
+      "slug": "recognising-digital-influence-systems",
+      "type": "explainer",
+      "programme": "youth-safety-and-emerging-risks",
+      "researchArea": "society-behavior",
+      "status": "Planned",
+      "source_project_visibility": "Private",
+      "website_visibility": "Public placeholder",
+      "summary": "Planned explainer on digital influence systems and how they shape interpretation.",
+      "public": true
+    },
+    {
+      "title": "How AI Shapes Online Decisions",
+      "slug": "how-ai-shapes-online-decisions",
+      "type": "explainer",
+      "programme": "youth-safety-and-emerging-risks",
+      "researchArea": "society-behavior",
+      "status": "Planned",
+      "source_project_visibility": "Private",
+      "website_visibility": "Public placeholder",
+      "summary": "Planned explainer on decision environments shaped by AI-mediated interaction.",
+      "public": true
+    },
+    {
+      "title": "Youth Digital Risk Map",
+      "slug": "youth-digital-risk-map",
+      "type": "framework",
+      "programme": "youth-safety-and-emerging-risks",
+      "researchArea": "risk-futures",
+      "status": "Planned",
+      "source_project_visibility": "Private",
+      "website_visibility": "Public placeholder",
+      "summary": "Planned public risk map for organizing youth-facing digital risk signals.",
+      "public": true
+    },
+    {
+      "title": "AI Risk Signals for Young People",
+      "slug": "ai-risk-signals-for-young-people",
+      "type": "research-brief",
+      "programme": "youth-safety-and-emerging-risks",
+      "researchArea": "risk-futures",
+      "status": "Planned",
+      "source_project_visibility": "Private",
+      "website_visibility": "Public placeholder",
+      "summary": "Planned research brief structure for public-interest AI risk signals affecting young people.",
+      "public": true
+    }
+  ],
+  "publicationCategories": [
+    {
+      "title": "Frameworks",
+      "slug": "frameworks",
+      "type": "framework",
+      "summary": "Structured models for interpreting institutional problems and decisions."
+    },
+    {
+      "title": "Working Papers",
+      "slug": "working-papers",
+      "type": "working-paper",
+      "summary": "Long-form draft papers under development before final publication."
+    },
+    {
+      "title": "Research Briefs",
+      "slug": "research-briefs",
+      "type": "research-brief",
+      "summary": "Short public-interest briefs designed for clarity and decision relevance."
+    },
+    {
+      "title": "Methodology Notes",
+      "slug": "methodology-notes",
+      "type": "methodology-note",
+      "summary": "Methods, boundaries, and research design notes for public outputs."
+    },
+    {
+      "title": "Explainers",
+      "slug": "explainers",
+      "type": "explainer",
+      "summary": "Accessible explanations of complex institutional and technology issues."
+    }
+  ],
+  "knowledgeAssets": [
+    {
+      "title": "Decision Usability Framework",
+      "slug": "decision-usability-framework",
+      "type": "framework",
+      "programmeTitle": "Policy Usability & Decision Systems",
+      "programme": "policy-usability-and-decision-systems",
+      "researchArea": "institutions-governance",
+      "status": "Planned",
+      "source_project_visibility": "Private",
+      "website_visibility": "Public placeholder",
+      "summary": "Planned framework for assessing whether policy and governance materials can support real decisions.",
+      "public": true
+    },
+    {
+      "title": "Institutional Translation Taxonomy",
+      "slug": "institutional-translation-taxonomy",
+      "type": "framework",
+      "programmeTitle": "Policy Usability & Decision Systems",
+      "programme": "policy-usability-and-decision-systems",
+      "researchArea": "institutions-governance",
+      "status": "Planned",
+      "source_project_visibility": "Private",
+      "website_visibility": "Public placeholder",
+      "summary": "Planned taxonomy for describing how institutional analysis becomes usable guidance.",
+      "public": true
+    },
+    {
+      "title": "Decision Brief Architecture",
+      "slug": "decision-brief-architecture",
+      "type": "methodology-note",
+      "programmeTitle": "Policy Usability & Decision Systems",
+      "programme": "policy-usability-and-decision-systems",
+      "researchArea": "institutions-governance",
+      "status": "Planned",
+      "source_project_visibility": "Private",
+      "website_visibility": "Public placeholder",
+      "summary": "Planned methodology note for structuring decision-ready brief formats.",
+      "public": true
+    },
+    {
+      "title": "Why Policy Fails at the Point of Use",
+      "slug": "why-policy-fails-at-the-point-of-use",
+      "type": "explainer",
+      "programmeTitle": "Policy Usability & Decision Systems",
+      "programme": "policy-usability-and-decision-systems",
+      "researchArea": "institutions-governance",
+      "status": "Planned",
+      "source_project_visibility": "Private",
+      "website_visibility": "Public placeholder",
+      "summary": "Planned explainer on the gap between policy outputs and practical institutional use.",
+      "public": true
+    },
+    {
+      "title": "Assessing Decision Usability in AI Governance Documents",
+      "slug": "assessing-decision-usability-in-ai-governance-documents",
+      "type": "working-paper",
+      "programmeTitle": "Policy Usability & Decision Systems",
+      "programme": "policy-usability-and-decision-systems",
+      "researchArea": "ai-technology",
+      "status": "Planned",
+      "source_project_visibility": "Private",
+      "website_visibility": "Public placeholder",
+      "summary": "Planned working paper structure for assessing decision usability in AI governance documents.",
+      "public": true
+    },
+    {
+      "title": "AI Manipulation Navigator",
+      "slug": "ai-manipulation-navigator",
+      "type": "framework",
+      "programmeTitle": "Youth Safety & Emerging Risks",
+      "programme": "youth-safety-and-emerging-risks",
+      "researchArea": "risk-futures",
+      "status": "Planned",
+      "source_project_visibility": "Private",
+      "website_visibility": "Public placeholder",
+      "summary": "Planned framework for interpreting AI-enabled influence risks in public-interest contexts.",
+      "public": true
+    },
+    {
+      "title": "Understanding Synthetic Media",
+      "slug": "understanding-synthetic-media",
+      "type": "explainer",
+      "programmeTitle": "Youth Safety & Emerging Risks",
+      "programme": "youth-safety-and-emerging-risks",
+      "researchArea": "ai-technology",
+      "status": "Planned",
+      "source_project_visibility": "Private",
+      "website_visibility": "Public placeholder",
+      "summary": "Planned explainer on synthetic media concepts, boundaries, and public-interest questions.",
+      "public": true
+    },
+    {
+      "title": "Recognising Digital Influence Systems",
+      "slug": "recognising-digital-influence-systems",
+      "type": "explainer",
+      "programmeTitle": "Youth Safety & Emerging Risks",
+      "programme": "youth-safety-and-emerging-risks",
+      "researchArea": "society-behavior",
+      "status": "Planned",
+      "source_project_visibility": "Private",
+      "website_visibility": "Public placeholder",
+      "summary": "Planned explainer on digital influence systems and how they shape interpretation.",
+      "public": true
+    },
+    {
+      "title": "How AI Shapes Online Decisions",
+      "slug": "how-ai-shapes-online-decisions",
+      "type": "explainer",
+      "programmeTitle": "Youth Safety & Emerging Risks",
+      "programme": "youth-safety-and-emerging-risks",
+      "researchArea": "society-behavior",
+      "status": "Planned",
+      "source_project_visibility": "Private",
+      "website_visibility": "Public placeholder",
+      "summary": "Planned explainer on decision environments shaped by AI-mediated interaction.",
+      "public": true
+    },
+    {
+      "title": "Youth Digital Risk Map",
+      "slug": "youth-digital-risk-map",
+      "type": "framework",
+      "programmeTitle": "Youth Safety & Emerging Risks",
+      "programme": "youth-safety-and-emerging-risks",
+      "researchArea": "risk-futures",
+      "status": "Planned",
+      "source_project_visibility": "Private",
+      "website_visibility": "Public placeholder",
+      "summary": "Planned public risk map for organizing youth-facing digital risk signals.",
+      "public": true
+    },
+    {
+      "title": "AI Risk Signals for Young People",
+      "slug": "ai-risk-signals-for-young-people",
+      "type": "research-brief",
+      "programmeTitle": "Youth Safety & Emerging Risks",
+      "programme": "youth-safety-and-emerging-risks",
+      "researchArea": "risk-futures",
+      "status": "Planned",
+      "source_project_visibility": "Private",
+      "website_visibility": "Public placeholder",
+      "summary": "Planned research brief structure for public-interest AI risk signals affecting young people.",
       "public": true
     }
   ]

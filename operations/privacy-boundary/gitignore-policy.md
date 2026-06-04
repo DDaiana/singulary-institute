@@ -23,6 +23,7 @@ Required local-only patterns:
 - `implementation-packages/`
 - `strategic-assessments/`
 - `opportunity-assessments/`
+- `opportunity-preparation/`
 - `private-prompts/`
 - `internal-audits/`
 - `source-notes/`

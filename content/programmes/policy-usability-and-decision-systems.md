@@ -8,8 +8,11 @@ domains:
   - AI governance
   - policy translation
   - decision infrastructure
-active_projects:
-  - The Missing Layer
+project_visibility: Private projects remain under institutional review before public release.
+public_assets:
+  - Decision Usability Framework
+  - Institutional Translation Taxonomy
+  - Decision Brief Architecture
 ---
 
 # Policy Usability & Decision Systems
