@@ -27,6 +27,7 @@ Codex is the execution layer. The governance layer is the decision layer.
 - `lifecycle/`: lifecycle stages, status definitions, and status templates.
 - `evidence/`: evidence classification, trust levels, source tracking, review workflow, and research integrity policy.
 - `research-modes/`: research mode classification, decision tree, interpretation workflow, and new-evidence workflow.
+- `privacy-boundary/`: public/private repository boundary and local-only private operating brain protection.
 - `roles/`: institutional decision roles and required outputs.
 - `workflows/`: operating workflows for research, programmes, grants, publications, and institutional review.
 - `templates/`: structured assessment and implementation templates.

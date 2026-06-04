@@ -3,4 +3,14 @@ dist/
 .DS_Store
 .env
 .env.*
+.env.local
 npm-debug.log*
+_private/
+private/
+.local-brain/
+.local-research/
+internal-notes/
+sensitive/
+*.private.md
+*.internal.md
+*.draft-private.md

@@ -52,15 +52,32 @@ Codex must:
 - implement approved packages
 - preserve repository structure
 - avoid duplicate systems
+- check `.gitignore`
+- check public-safe status
+- check publication clearance status
+- check funding visibility status
 - run build and verification
 - update files intentionally
 - report changes and residual risks
 
 Codex must not:
 
+- commit private materials
 - determine research validity
 - invent sources
 - fabricate findings
 - decide programme fit without Research OS approval
 - classify publications as evidence-based without documented evidence review
 
+## Public / Private Boundary
+
+Codex must only implement public-safe files unless specifically instructed otherwise.
+
+Before updating GitHub, Codex must check:
+
+- `.gitignore`
+- public-safe status
+- publication clearance status
+- funding visibility status
+
+Private operating brain files, sensitive grant notes, internal reasoning logs, and non-public source notes must remain local-only.

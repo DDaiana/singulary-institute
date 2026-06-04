@@ -6,7 +6,7 @@ programme: Policy Usability & Decision Systems
 research_area: Institutions & Governance
 status: draft
 date: 2026-06-01
-summary: Why AI policy fails at the point of use and how decision-ready translation mechanisms could help.
+summary: The Missing Layer investigates why AI policy and innovation outputs often fail at the point of use, and how decision-ready translation mechanisms could improve institutional usability.
 tags:
   - policy usability
   - decision systems
@@ -15,6 +15,14 @@ public: true
 ---
 
 # The Missing Layer
+
+Status: draft
+
+Research mode: Interpretation of Existing Evidence
+
+Public description:
+
+The Missing Layer investigates why AI policy and innovation outputs often fail at the point of use, and how decision-ready translation mechanisms could improve institutional usability.
 
 This working project examines the gap between formal AI policy outputs and practical decision use. It treats policy translation as a missing institutional layer: the connective system that turns rules, guidance, and strategic intent into usable decisions at the point of action.
 

@@ -4,33 +4,50 @@ Project Proposal
 
 -> Research Director
 
--> Determine: Will this project generate new evidence?
+## Question 1
 
-## If Yes
+Does the project rely only on existing public documents, reports, datasets, and literature?
 
-Classify as:
+If yes:
 
-Generation of New Evidence
+- Classification: Interpretation of Existing Evidence
+- Required next step: Evidence Strategy and Evidence Registry
 
-Required next step:
+## Question 2
 
-Evidence Generation Approval
+Does the project require original surveys, interviews, fieldwork, experiments, or primary datasets as its core evidence base?
 
-## If No
+If yes:
 
-Classify as:
+- Classification: Generation of New Evidence
+- Required next step: Evidence Generation Approval
 
-Interpretation of Existing Evidence
+## Question 3
 
-Required next step:
+Is the project primarily interpretive, but funded or partnered in a way that allows limited original input?
 
-Evidence Strategy and Evidence Registry
+If yes:
+
+- Classification: Hybrid Research Mode
+- Required next step: Supplementary Evidence Plan
+
+## Question 4
+
+Is funding approved but no original evidence activity planned?
+
+If yes:
+
+- Classification: Interpretation of Existing Evidence
+- Subtype: Funded Interpretive Intelligence Project
+- Funding Status: Funded
+- Evidence Generation Required: No
 
 ## Additional Consideration
 
-Approved funding, approved partnerships, approved field access, and approved research participants may enable Generation of New Evidence, but they do not automatically require it.
+Approved funding, approved partnerships, approved field access, and approved research participants may enable Generation of New Evidence or Hybrid Research Mode, but they do not automatically require either.
+
+Funding supports capacity. Funding does not automatically change evidence type.
 
 ## Governance Rule
 
 Research mode must be recorded before project architecture is finalized.
-

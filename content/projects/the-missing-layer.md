@@ -4,11 +4,13 @@ Programme: Policy Usability & Decision Systems
 
 Research areas: AI & Technology; Institutions & Governance
 
-Status: draft framework
+Status: Research in Motion
+
+Research mode: Interpretation of Existing Evidence
 
 ## Overview
 
-The Missing Layer investigates the gap between policy production and practical institutional decision-making.
+The Missing Layer investigates why AI policy and innovation outputs often fail at the point of use, and how decision-ready translation mechanisms could improve institutional usability.
 
 ## Why It Matters
 
@@ -26,4 +28,3 @@ The project maps the path from signal to interpretation, decision, and consequen
 
 - Decision-translation framework
 - Programme-linked draft output
-

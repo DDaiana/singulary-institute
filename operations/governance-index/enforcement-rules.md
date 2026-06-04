@@ -46,6 +46,22 @@ No Generation of New Evidence project may proceed without Research Design.
 
 No trust classification may be assigned without evidence review.
 
+No hybrid project may claim original findings unless supplementary evidence is documented.
+
+No funded interpretive project may be treated as new evidence solely because funding exists.
+
+## Public / Private Boundary Rules
+
+No private operating brain files may be committed to GitHub.
+
+No rejected grant information may appear publicly unless intentionally approved.
+
+No funding details may appear on the website unless explicitly public-safe.
+
+No project may be published without public/private clearance.
+
+No Codex implementation package may proceed without public-safe classification.
+
 ## Integrity Rules
 
 AI systems may assist interpretation, organization, classification, framework development, and synthesis from traceable source material.

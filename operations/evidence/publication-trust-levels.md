@@ -93,6 +93,14 @@ Interpretive publications may achieve:
 - Supported
 - Verified
 
+Hybrid publications may achieve:
+
+- Developing
+- Supported
+- Verified
+
+Hybrid publications may reach Peer-Reviewed only if supplementary evidence is documented and external review is documented.
+
 Primary research publications may achieve:
 
 - Developing
@@ -101,3 +109,5 @@ Primary research publications may achieve:
 - Peer-Reviewed
 
 Peer-Reviewed status requires external review documentation regardless of research mode.
+
+Funded interpretive intelligence projects follow the interpretive trust path unless original evidence generation is explicitly approved.

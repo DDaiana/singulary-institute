@@ -20,9 +20,17 @@ Research Mode: Interpretation of Existing Evidence
 
 Evidence Strategy: Policy documents, governance literature, implementation literature, and institutional analysis.
 
+Funding Status: unfunded
+
+Funding Visibility: do-not-publish
+
 Primary Research Required: No
 
 Evidence Generation Required: No
+
+Public Safe: Yes
+
+Publication Clearance: pending
 
 Evidence Level: Interpretive
 
@@ -87,9 +95,17 @@ Research Mode: Interpretation of Existing Evidence
 
 Evidence Strategy: Youth-safety literature, AI risk literature, platform policy materials, institutional publications, and prevention-focused analysis.
 
+Funding Status: unfunded
+
+Funding Visibility: internal-only
+
 Primary Research Required: No
 
 Evidence Generation Required: No
+
+Public Safe: Yes
+
+Publication Clearance: pending
 
 Evidence Level: Interpretive
 

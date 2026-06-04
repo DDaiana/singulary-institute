@@ -15,8 +15,12 @@ Required fields:
 - Research Type
 - Research Mode
 - Evidence Strategy
+- Funding Status
+- Funding Visibility
 - Primary Research Required
 - Evidence Generation Required
+- Public Safe
+- Publication Clearance
 - Evidence Level
 - Source Count
 - Review Status

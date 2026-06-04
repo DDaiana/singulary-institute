@@ -14,6 +14,8 @@ Research Mode:
 
 Evidence Strategy:
 
+Funding Visibility:
+
 Institutional Fit:
 
 Expected Outputs:
@@ -38,6 +40,20 @@ Expected Outputs:
 ## Grant Implications
 
 - opportunities affected
+
+## Public / Private Boundary
+
+Public-safe content:
+
+Private/local-only content:
+
+Funding visibility:
+
+Research mode:
+
+Evidence generation required:
+
+Publication clearance:
 
 ## Build Requirements
 

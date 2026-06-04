@@ -11,11 +11,22 @@ It may not create fictional evidence, create fictional findings, claim observati
 Before research begins, the Research OS must determine whether the project is:
 
 1. Interpretation of Existing Evidence
-2. Generation of New Evidence
+2. Hybrid Research Mode
+3. Generation of New Evidence
 
 The Research Director owns the mode decision. The Programme Architect confirms the implications for programme placement, evidence requirements, publication path, and trust classification.
 
 The mode decision must be recorded in the project registry and content registry before Codex implementation.
+
+Research OS must classify every project by:
+
+- research mode
+- funding status
+- evidence strategy
+- public/private visibility
+- publication clearance status
+
+Research OS may prepare private operating materials locally, but only public-safe outputs should be passed to Codex for GitHub implementation.
 
 ## Roles
 
@@ -27,7 +38,7 @@ Responsibilities:
 - identify institutional value
 - define research questions
 - identify strategic implications
-- determine whether a project interprets existing evidence or generates new evidence before research begins
+- determine whether a project interprets existing evidence, uses hybrid mode, or generates new evidence before research begins
 
 Outputs:
 
