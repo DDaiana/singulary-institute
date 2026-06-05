@@ -40,6 +40,7 @@ const typeLabels = {
   'working-paper': 'Working Paper',
   'research-brief': 'Research Brief',
   'methodology-note': 'Methodology Note',
+  'research-note': 'Research Note',
   explainer: 'Explainer',
   brief: 'Research Brief',
   'signal-report': 'Signal Report',
@@ -242,7 +243,10 @@ function Hero() {
 }
 
 function Home() {
-  const { areas, programmes } = useContent();
+  const { areas, programmes, publications } = useContent();
+  const latest = publications.slice(0, 3);
+  const frameworks = publications.filter((publication) => publication.type === 'framework').slice(0, 3);
+  const briefs = publications.filter((publication) => publication.type === 'research-brief').slice(0, 3);
   return (
     <Shell active="home">
       <Hero />
@@ -281,13 +285,32 @@ function Home() {
       <section className="section">
         <div className="section-head">
           <div>
-            <p className="eyebrow">Projects</p>
+            <p className="eyebrow">Latest Publications</p>
           </div>
         </div>
-        <article className="method-card">
-          <h3>Public release boundary</h3>
-          <p>Selected projects remain under institutional review, evidence development, or publication preparation before public release.</p>
-        </article>
+        <div className="list compact-list">
+          {latest.map((publication, index) => <Publication key={publication.slug} publication={publication} img={index} />)}
+        </div>
+      </section>
+      <section className="section">
+        <div className="section-head">
+          <div>
+            <p className="eyebrow">Featured Frameworks</p>
+          </div>
+        </div>
+        <div className="list compact-list">
+          {frameworks.map((publication, index) => <Publication key={publication.slug} publication={publication} img={index + 1} />)}
+        </div>
+      </section>
+      <section className="section">
+        <div className="section-head">
+          <div>
+            <p className="eyebrow">Featured Research Briefs</p>
+          </div>
+        </div>
+        <div className="list compact-list">
+          {briefs.length ? briefs.map((publication, index) => <Publication key={publication.slug} publication={publication} img={index + 2} />) : <EmptyState text="Research brief packages are in preparation." />}
+        </div>
       </section>
     </Shell>
   );
@@ -329,7 +352,7 @@ function Publications() {
       <section className="page two-col">
         <div>
           <h1>Research publications</h1>
-          <p className="lead">Work in progress: the papers are not yet finalised. Planned public outputs are shown by format, programme, research area, and current status.</p>
+        <p className="lead">Work in progress: publication packages originate in the Research OS and are integrated into the website after editorial review. Draft packages do not claim completed studies, original findings, or validated results.</p>
           <PublicationFilters publications={publications} />
           <div className="category-stack">
             {categories.map((category) => (
@@ -353,11 +376,11 @@ function Publication({ publication, img, compact = false }) {
     <a className="pub" href={publication.href}>
       <div className={`thumb t${img % 3}`} />
       <div>
-        <small>{typeLabels[publication.type] || publication.type} · {publication.status}</small>
+        <small>{typeLabels[publication.type] || publication.type} · {publication.publication_status || publication.status}</small>
         <h3>{publication.title}</h3>
         <p>{publication.summary}</p>
         <span>
-          Source project: {publication.source_project_visibility || 'Private'} · {publication.programmeData?.title} · {publication.areaData?.title}
+          Content source: {publication.content_source || 'Research OS'} · {publication.programmeData?.title} · {publication.areaData?.title}
         </span>
       </div>
       <ArrowRight size={18} />
@@ -400,22 +423,32 @@ function PublicationDetail({ slug }) {
         <p className="lead">{publication.summary}</p>
         <div className="detail-grid">
           <article className="method-card">
-            <h3>Status</h3>
-            <p>{publication.status}</p>
+            <h3>Publication status</h3>
+            <p>{publication.publication_status || publication.status}</p>
           </article>
           <article className="method-card">
-            <h3>Public release boundary</h3>
-            <p>Source project: {publication.source_project_visibility || 'Private'}. The underlying project remains private until cleared for publication.</p>
+            <h3>Content source</h3>
+            <p>{publication.content_source || 'Research OS'}</p>
           </article>
           <article className="method-card">
-            <h3>Programme</h3>
-            <p>{publication.programmeData?.title}</p>
+            <h3>Classification</h3>
+            <p>{publication.research_type || 'Interpretive'} · Evidence {publication.evidence_level || 'Developing'} · Trust {publication.trust_level || 'Developing'}</p>
           </article>
           <article className="method-card">
-            <h3>Research area</h3>
-            <p>{publication.areaData?.title}</p>
+            <h3>Review status</h3>
+            <p>{publication.review_status || 'Internal'}</p>
           </article>
         </div>
+        <article className="method-card programme-projects">
+          <h3>Publication package</h3>
+          <p>This page displays approved package metadata and website summary only. Full publication content is drafted by the Research OS and added after editorial clearance.</p>
+          <div className="mini-grid">
+            <span><CircleDot size={14} />{publication.programmeData?.title}</span>
+            <span><CircleDot size={14} />{publication.areaData?.title}</span>
+            <span><CircleDot size={14} />{publication.visibility || 'Public Asset'}</span>
+            <span><CircleDot size={14} />{publication.website_visibility || 'Package page available'}</span>
+          </div>
+        </article>
       </section>
     </Shell>
   );

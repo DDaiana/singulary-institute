@@ -1,16 +1,15 @@
 # Public Output Registry
 
-| Output | Type | Status | Source Project |
-| --- | --- | --- | --- |
-| Decision Usability Framework | Framework | Planned | Private |
-| Institutional Translation Taxonomy | Framework | Planned | Private |
-| Decision Brief Architecture | Methodology Note | Planned | Private |
-| Why Policy Fails at the Point of Use | Explainer | Planned | Private |
-| Assessing Decision Usability in AI Governance Documents | Working Paper | Planned | Private |
-| AI Manipulation Navigator | Framework | Planned | Private |
-| Understanding Synthetic Media | Explainer | Planned | Private |
-| Recognising Digital Influence Systems | Explainer | Planned | Private |
-| How AI Shapes Online Decisions | Explainer | Planned | Private |
-| Youth Digital Risk Map | Framework | Planned | Private |
-| AI Risk Signals for Young People | Research Brief | Planned | Private |
-
+| Title | Output Type | Source Project | Visibility | Publication Status | Website Status | Publication Date | Content Source |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Decision Usability Framework | framework | Private | Public Asset | Draft Package | Package page available | TBD | Research OS |
+| Institutional Translation Taxonomy | framework | Private | Public Asset | Draft Package | Package page available | TBD | Research OS |
+| Assessing Decision Usability | methodology-note | Private | Public Asset | Draft Package | Package page available | TBD | Research OS |
+| Why Policy Fails at the Point of Use | working-paper | Private | Public Asset | Draft Package | Package page available | TBD | Research OS |
+| Decision Brief Architecture | framework | Private | Public Asset | Draft Package | Package page available | TBD | Research OS |
+| AI Manipulation Navigator | framework | Private | Public Asset | Draft Package | Package page available | TBD | Research OS |
+| Understanding Synthetic Media | explainer | Private | Public Asset | Draft Package | Package page available | TBD | Research OS |
+| Recognising Digital Influence Systems | explainer | Private | Public Asset | Draft Package | Package page available | TBD | Research OS |
+| How AI Shapes Online Decisions | explainer | Private | Public Asset | Draft Package | Package page available | TBD | Research OS |
+| Youth Digital Risk Map | framework | Private | Public Asset | Draft Package | Package page available | TBD | Research OS |
+| AI Risk Signals for Young People | research-brief | Private | Public Asset | Draft Package | Package page available | TBD | Research OS |
