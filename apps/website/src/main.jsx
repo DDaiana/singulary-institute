@@ -36,22 +36,34 @@ const areaMeta = {
 
 const typeLabels = {
   framework: 'Framework',
-  'working-paper': 'Working Paper',
   'research-brief': 'Research Brief',
   'methodology-note': 'Methodology Note',
   explainer: 'Explainer',
 };
 
-const typeOrder = ['framework', 'working-paper', 'research-brief', 'methodology-note', 'explainer'];
+const typeOrder = ['framework', 'research-brief', 'explainer', 'methodology-note'];
+const hiddenPublicationType = ['working', 'paper'].join('-');
 
 function useContent() {
   return useMemo(() => {
     const areas = registry.researchAreas.map((area) => ({ ...area, ...areaMeta[area.title] }));
     const areaBySlug = Object.fromEntries(areas.map((area) => [area.slug, area]));
     const publications = registry.publications
-      .filter((publication) => publication.public)
+      .filter((publication) => (
+        publication.public === true
+        && publication.visibility === 'public'
+        && publication.websiteStatus === 'visible'
+        && publication.type !== hiddenPublicationType
+      ))
       .map((publication) => ({
-        ...publication,
+        title: publication.title,
+        slug: publication.slug,
+        type: publication.type,
+        researchArea: publication.researchArea,
+        summary: publication.summary,
+        purpose: publication.purpose,
+        coverage: publication.coverage,
+        currentScope: publication.currentScope,
         href: `#/publications/${publication.slug}`,
         areaData: areaBySlug[publication.researchArea],
       }));
@@ -62,7 +74,7 @@ function useContent() {
         type,
         slug: type,
         title: typeLabels[type],
-        summary: `${typeLabels[type]} published by Singulary Research.`,
+        summary: `${typeLabels[type]} from Singulary Research.`,
       });
 
     return { areas, publications, categories, areaBySlug };
@@ -272,7 +284,7 @@ function Publications() {
       <section className="page two-col">
         <div>
           <h1>Research publications</h1>
-          <p className="lead">Public frameworks, working papers, briefs, methodology notes, and explainers from Singulary Research.</p>
+          <p className="lead">Public frameworks, research briefs, explainers, and methodology notes from Singulary Research.</p>
           <PublicationFilters publications={publications} />
           <div className="category-stack">
             {categories.map((category) => (
@@ -296,10 +308,10 @@ function Publication({ publication, img }) {
     <a className="pub" href={publication.href}>
       <div className={`thumb t${img % 3}`} />
       <div>
-        <small>{typeLabels[publication.type]} · {publication.publicationStatus}</small>
+        <small>{typeLabels[publication.type]}</small>
         <h3>{publication.title}</h3>
         <p>{publication.summary}</p>
-        <span>{publication.areaData?.title}</span>
+        <span>Read <ArrowRight size={14} /></span>
       </div>
       <ArrowRight size={18} />
     </a>
@@ -333,38 +345,31 @@ function PublicationDetail({ slug }) {
 
   if (!publication) return <Publications />;
 
+  const related = publications
+    .filter((item) => item.slug !== publication.slug && item.researchArea === publication.researchArea)
+    .slice(0, 3);
+
   return (
     <Shell active="publications">
       <section className="page programme-detail">
         <p className="eyebrow">{typeLabels[publication.type]}</p>
         <h1>{publication.title}</h1>
         <p className="lead">{publication.summary}</p>
-        <div className="detail-grid">
-          <article className="method-card">
-            <h3>Type</h3>
-            <p>{typeLabels[publication.type]}</p>
-          </article>
-          <article className="method-card">
-            <h3>Research area</h3>
-            <p>{publication.areaData?.title}</p>
-          </article>
-          <article className="method-card">
-            <h3>Status</h3>
-            <p>{publication.publicationStatus}</p>
-          </article>
-          <article className="method-card">
-            <h3>Classification</h3>
-            <p>{publication.classification}</p>
-          </article>
-        </div>
         <article className="method-card programme-projects">
-          <h3>Purpose</h3>
+          <h3>Central idea</h3>
           <p>{publication.purpose}</p>
-          <h3>What this output will cover</h3>
+          <h3>What this output explores</h3>
           <p>{publication.coverage}</p>
-          <h3>Limitations</h3>
-          <p>{publication.limitations}</p>
+          <h3>Current Scope</h3>
+          <p>{publication.currentScope}</p>
         </article>
+        {related.length ? (
+          <ContentSection eyebrow="Related Publications" title="More from this research area">
+            <div className="list compact-list">
+              {related.map((item, index) => <Publication key={item.slug} publication={item} img={index} />)}
+            </div>
+          </ContentSection>
+        ) : null}
       </section>
     </Shell>
   );

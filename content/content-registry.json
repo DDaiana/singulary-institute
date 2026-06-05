@@ -49,31 +49,25 @@
       "title": "Frameworks",
       "slug": "frameworks",
       "type": "framework",
-      "summary": "Structured models for interpreting institutional problems and decisions."
-    },
-    {
-      "title": "Working Papers",
-      "slug": "working-papers",
-      "type": "working-paper",
-      "summary": "Long-form draft papers under development before final publication."
+      "summary": "Structured public models for interpreting institutional problems and decisions."
     },
     {
       "title": "Research Briefs",
       "slug": "research-briefs",
       "type": "research-brief",
-      "summary": "Short public-interest briefs designed for clarity and decision relevance."
+      "summary": "Concise public briefs designed for clarity and decision relevance."
     },
     {
       "title": "Methodology Notes",
       "slug": "methodology-notes",
       "type": "methodology-note",
-      "summary": "Methods, boundaries, and research design notes for public outputs."
+      "summary": "Public notes on methods, boundaries, and research design."
     },
     {
       "title": "Explainers",
       "slug": "explainers",
       "type": "explainer",
-      "summary": "Accessible explanations of complex institutional and technology issues."
+      "summary": "Accessible explanations of complex institutional and technology questions."
     }
   ],
   "publications": [
@@ -86,11 +80,9 @@
       "public": true,
       "visibility": "public",
       "websiteStatus": "visible",
-      "publicationStatus": "drafting",
-      "classification": "Interpretive research output",
       "purpose": "This framework will define a practical structure for assessing whether policy and governance materials can support decisions at the point of use.",
       "coverage": "It will cover decision context, usability criteria, interpretation boundaries, and examples of how public guidance can become more actionable.",
-      "limitations": "This is a public-facing planned or drafting output. It does not claim original findings, empirical proof, completed study status, validated results, or external peer review."
+      "currentScope": "This output is an early public version intended to clarify the core idea. It does not present original empirical findings and may be expanded as the research develops."
     },
     {
       "title": "Institutional Translation Taxonomy",
@@ -101,11 +93,9 @@
       "public": true,
       "visibility": "public",
       "websiteStatus": "visible",
-      "publicationStatus": "drafting",
-      "classification": "Interpretive research output",
       "purpose": "This taxonomy will create a public vocabulary for describing how institutional knowledge moves from signal to interpretation, decision, and consequence.",
       "coverage": "It will cover translation failures, interpretive layers, public communication categories, and the difference between information and decision support.",
-      "limitations": "This is a public-facing planned or drafting output. It does not claim original findings, empirical proof, completed study status, validated results, or external peer review."
+      "currentScope": "This output is an early public version intended to clarify the core idea. It does not present original empirical findings and may be expanded as the research develops."
     },
     {
       "title": "Assessing Decision Usability in AI Governance Documents",
@@ -116,26 +106,9 @@
       "public": true,
       "visibility": "public",
       "websiteStatus": "visible",
-      "publicationStatus": "drafting",
-      "classification": "Interpretive research output",
       "purpose": "This methodology note will outline how Singulary reviews governance and policy materials for decision usability without presenting a validated measurement instrument.",
-      "coverage": "It will cover review criteria, public limitations, evidence boundaries, and future development needs.",
-      "limitations": "This is a public-facing planned or drafting output. It does not claim original findings, empirical proof, completed study status, validated results, or external peer review."
-    },
-    {
-      "title": "Why Policy Fails at the Point of Use",
-      "slug": "why-policy-fails-at-the-point-of-use",
-      "type": "working-paper",
-      "researchArea": "institutions-governance",
-      "summary": "Develop a Version 1 working paper about why formal policy outputs may fail to become usable in real decision environments.",
-      "public": true,
-      "visibility": "public",
-      "websiteStatus": "visible",
-      "publicationStatus": "drafting",
-      "classification": "Interpretive research output",
-      "purpose": "This working paper will examine why formal policy outputs may fail to become usable in practical institutional settings.",
-      "coverage": "It will cover decision pressure, institutional context, implementation friction, and the public value of decision-ready translation.",
-      "limitations": "This is a public-facing planned or drafting output. It does not claim original findings, empirical proof, completed study status, validated results, or external peer review."
+      "coverage": "It will cover review criteria, public scope boundaries, evidence boundaries, and future development needs.",
+      "currentScope": "This output is an early public version intended to clarify the core idea. It does not present original empirical findings and may be expanded as the research develops."
     },
     {
       "title": "Decision Brief Architecture",
@@ -146,11 +119,9 @@
       "public": true,
       "visibility": "public",
       "websiteStatus": "visible",
-      "publicationStatus": "drafting",
-      "classification": "Interpretive research output",
       "purpose": "This framework will define a reusable structure for concise public decision briefs.",
-      "coverage": "It will cover context, signal, interpretation, limitations, decision relevance, and future brief formats.",
-      "limitations": "This is a public-facing planned or drafting output. It does not claim original findings, empirical proof, completed study status, validated results, or external peer review."
+      "coverage": "It will cover context, signal, interpretation, scope, decision relevance, and future brief formats.",
+      "currentScope": "This output is an early public version intended to clarify the core idea. It does not present original empirical findings and may be expanded as the research develops."
     },
     {
       "title": "AI Manipulation Navigator",
@@ -161,11 +132,9 @@
       "public": true,
       "visibility": "public",
       "websiteStatus": "visible",
-      "publicationStatus": "drafting",
-      "classification": "Interpretive research output",
       "purpose": "This framework will provide a prevention-focused public structure for navigating AI-enabled influence risks.",
       "coverage": "It will cover risk categories, public interpretation boundaries, responsible language, and areas requiring further review.",
-      "limitations": "This is a public-facing planned or drafting output. It does not claim original findings, empirical proof, completed study status, validated results, or external peer review."
+      "currentScope": "This output is an early public version intended to clarify the core idea. It does not present original empirical findings and may be expanded as the research develops."
     },
     {
       "title": "Understanding Synthetic Media",
@@ -176,11 +145,9 @@
       "public": true,
       "visibility": "public",
       "websiteStatus": "visible",
-      "publicationStatus": "drafting",
-      "classification": "Interpretive research output",
       "purpose": "This explainer will introduce synthetic media in accessible public language while keeping claims bounded.",
-      "coverage": "It will cover basic concepts, distinctions, public-interest questions, and limitations of early interpretation.",
-      "limitations": "This is a public-facing planned or drafting output. It does not claim original findings, empirical proof, completed study status, validated results, or external peer review."
+      "coverage": "It will cover basic concepts, distinctions, public-interest questions, and boundaries of early interpretation.",
+      "currentScope": "This output is an early public version intended to clarify the core idea. It does not present original empirical findings and may be expanded as the research develops."
     },
     {
       "title": "Recognising Digital Influence Systems",
@@ -191,11 +158,9 @@
       "public": true,
       "visibility": "public",
       "websiteStatus": "visible",
-      "publicationStatus": "drafting",
-      "classification": "Interpretive research output",
       "purpose": "This explainer will describe digital influence systems as environments that shape interpretation and decisions.",
       "coverage": "It will cover persuasion, recommendation, manipulation, interface context, and public literacy questions.",
-      "limitations": "This is a public-facing planned or drafting output. It does not claim original findings, empirical proof, completed study status, validated results, or external peer review."
+      "currentScope": "This output is an early public version intended to clarify the core idea. It does not present original empirical findings and may be expanded as the research develops."
     },
     {
       "title": "How AI Shapes Online Decisions",
@@ -206,11 +171,9 @@
       "public": true,
       "visibility": "public",
       "websiteStatus": "visible",
-      "publicationStatus": "drafting",
-      "classification": "Interpretive research output",
       "purpose": "This explainer will discuss how AI-mediated systems may shape online decision environments without claiming direct causal findings.",
       "coverage": "It will cover choice environments, decision pressure, recommendation systems, and responsible interpretation.",
-      "limitations": "This is a public-facing planned or drafting output. It does not claim original findings, empirical proof, completed study status, validated results, or external peer review."
+      "currentScope": "This output is an early public version intended to clarify the core idea. It does not present original empirical findings and may be expanded as the research develops."
     },
     {
       "title": "Youth Digital Risk Map",
@@ -221,11 +184,9 @@
       "public": true,
       "visibility": "public",
       "websiteStatus": "visible",
-      "publicationStatus": "drafting",
-      "classification": "Interpretive research output",
       "purpose": "This framework will organize youth-facing digital risk signals in a prevention-focused and evidence-bounded way.",
       "coverage": "It will cover public risk categories, signal interpretation, prevention windows, and future evidence needs.",
-      "limitations": "This is a public-facing planned or drafting output. It does not claim original findings, empirical proof, completed study status, validated results, or external peer review."
+      "currentScope": "This output is an early public version intended to clarify the core idea. It does not present original empirical findings and may be expanded as the research develops."
     },
     {
       "title": "AI Risk Signals for Young People",
@@ -236,11 +197,9 @@
       "public": true,
       "visibility": "public",
       "websiteStatus": "visible",
-      "publicationStatus": "drafting",
-      "classification": "Interpretive research output",
       "purpose": "This research brief will communicate a cautious public structure for interpreting AI risk signals affecting young people.",
-      "coverage": "It will cover signal categories, what remains under review, public limitations, and future research directions.",
-      "limitations": "This is a public-facing planned or drafting output. It does not claim original findings, empirical proof, completed study status, validated results, or external peer review."
+      "coverage": "It will cover signal categories, what remains under review, public scope boundaries, and future research directions.",
+      "currentScope": "This output is an early public version intended to clarify the core idea. It does not present original empirical findings and may be expanded as the research develops."
     }
   ],
   "projects": []
