@@ -1,4 +1,4 @@
-# Research OS Input
+# Publication Development Input
 
 Asset: Youth Digital Risk Map
 
@@ -22,7 +22,7 @@ Taxonomy package, public risk map outline, and future research brief.
 
 ## Evidence Requirements
 
-Youth safety literature, public digital risk frameworks, platform policy materials, and Research OS review.
+Youth safety literature, public digital risk frameworks, platform policy materials, and source review.
 
 ## Future Expansion Paths
 

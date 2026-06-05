@@ -1,4 +1,4 @@
-# Research OS Input
+# Publication Development Input
 
 Asset: Decision Brief Architecture
 
@@ -22,7 +22,7 @@ Framework package, brief architecture template, and future examples.
 
 ## Evidence Requirements
 
-Public communication methods, policy brief formats, and Research OS synthesis after source review.
+Public communication methods, policy brief formats, and source-based synthesis after source review.
 
 ## Future Expansion Paths
 

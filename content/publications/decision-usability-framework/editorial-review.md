@@ -10,6 +10,6 @@ Asset: Decision Usability Framework
 - [ ] Trust level reviewed
 - [ ] Website readiness reviewed
 - [ ] Archive readiness reviewed
-- [ ] No private project name exposed
-- [ ] No funding assessment exposed
+- [ ] No restricted proposal details exposed
+- [ ] No non-public opportunity assessment exposed
 - [ ] No unsupported findings claimed

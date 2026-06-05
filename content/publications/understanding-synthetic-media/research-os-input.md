@@ -1,4 +1,4 @@
-# Research OS Input
+# Publication Development Input
 
 Asset: Understanding Synthetic Media
 
@@ -22,7 +22,7 @@ Explainer package and future public article draft.
 
 ## Evidence Requirements
 
-Public technical explainers, platform policy materials, media literacy resources, and Research OS synthesis after review.
+Public technical explainers, platform policy materials, media literacy resources, and source-based synthesis after review.
 
 ## Future Expansion Paths
 

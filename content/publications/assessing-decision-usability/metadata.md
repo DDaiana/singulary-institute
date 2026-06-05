@@ -1,6 +1,6 @@
-# Assessing Decision Usability
+# Assessing Decision Usability in AI Governance Documents
 
-Title: Assessing Decision Usability
+Title: Assessing Decision Usability in AI Governance Documents
 
 Publication Type: Methodology Note
 
@@ -20,12 +20,9 @@ Trust Level: Developing
 
 Review Status: Internal
 
-Content Source: Research OS
-
 Visibility: Public Asset
 
 Publication Status: Draft Package
 
 Website Status: Package page available
 
-Source Project: Private

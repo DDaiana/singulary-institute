@@ -1,4 +1,4 @@
-# Research OS Input
+# Publication Development Input
 
 Asset: AI Manipulation Navigator
 
@@ -22,7 +22,7 @@ Framework package, website summary, and future research brief structure.
 
 ## Evidence Requirements
 
-Public AI risk literature, digital safety materials, platform policy materials, and Research OS source review.
+Public AI risk literature, digital safety materials, platform policy materials, and source review.
 
 ## Future Expansion Paths
 

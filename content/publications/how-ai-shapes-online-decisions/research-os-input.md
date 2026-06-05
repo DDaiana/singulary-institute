@@ -1,4 +1,4 @@
-# Research OS Input
+# Publication Development Input
 
 Asset: How AI Shapes Online Decisions
 
@@ -22,7 +22,7 @@ Explainer package and future public article draft.
 
 ## Evidence Requirements
 
-Public literature on recommender systems, online behaviour, interface design, and Research OS synthesis after review.
+Public literature on recommender systems, online behaviour, interface design, and source-based synthesis after review.
 
 ## Future Expansion Paths
 

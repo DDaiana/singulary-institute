@@ -20,12 +20,9 @@ Trust Level: Developing
 
 Review Status: Internal
 
-Content Source: Research OS
-
 Visibility: Public Asset
 
 Publication Status: Draft Package
 
 Website Status: Package page available
 
-Source Project: Private

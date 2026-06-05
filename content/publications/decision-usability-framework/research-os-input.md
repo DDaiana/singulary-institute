@@ -1,4 +1,4 @@
-# Research OS Input
+# Publication Development Input
 
 Asset: Decision Usability Framework
 
@@ -22,7 +22,7 @@ Version 1 framework package, website summary, and future publication draft.
 
 ## Evidence Requirements
 
-Public governance materials, policy documents, decision-support literature, and documented Research OS synthesis after source review.
+Public governance materials, policy documents, decision-support literature, and documented source-based synthesis after source review.
 
 ## Future Expansion Paths
 

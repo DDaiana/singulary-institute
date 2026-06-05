@@ -1,4 +1,4 @@
-# Research OS Input
+# Publication Development Input
 
 Asset: Recognising Digital Influence Systems
 
@@ -22,7 +22,7 @@ Explainer package and future public article draft.
 
 ## Evidence Requirements
 
-Digital literacy materials, platform governance materials, public research literature, and Research OS synthesis after source review.
+Digital literacy materials, platform governance materials, public research literature, and source-based synthesis after source review.
 
 ## Future Expansion Paths
 

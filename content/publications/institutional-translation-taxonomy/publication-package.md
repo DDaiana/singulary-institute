@@ -10,8 +10,6 @@ Trust Level: Developing
 
 Review Status: Internal
 
-Content Source: Research OS
-
 ## Purpose
 
 Create a public vocabulary for describing how institutional knowledge moves from signal to interpretation, decision, and consequence.
@@ -22,11 +20,11 @@ This is a Version 1 institutional publication package. It does not claim origina
 
 ## Core Framework
 
-To be drafted by the ChatGPT Research OS after source review and editorial direction.
+To be drafted through source review and editorial direction.
 
 ## Key Concepts
 
-To be defined by the ChatGPT Research OS.
+To be defined during editorial development.
 
 ## Limitations
 

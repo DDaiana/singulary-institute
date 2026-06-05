@@ -1,6 +1,6 @@
-# Research OS Input
+# Publication Development Input
 
-Asset: Assessing Decision Usability
+Asset: Assessing Decision Usability in AI Governance Documents
 
 ## Purpose
 

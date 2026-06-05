@@ -1,4 +1,4 @@
-# Assessing Decision Usability
+# Assessing Decision Usability in AI Governance Documents
 
 Archive Status: Not archived
 
@@ -10,4 +10,4 @@ Research Area: Institutions & Governance
 
 Programme: Policy Usability & Decision Systems
 
-Content Source: Research OS
+Content Source: research workflow

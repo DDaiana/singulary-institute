@@ -1,4 +1,4 @@
-# Assessing Decision Usability
+# Assessing Decision Usability in AI Governance Documents
 
 Define a method for reviewing governance and policy materials without claiming validated measurement.
 
@@ -10,4 +10,3 @@ Evidence Level: Developing
 
 Trust Level: Developing
 
-Source Project: Private

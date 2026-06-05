@@ -1,4 +1,4 @@
-# Research OS Input
+# Publication Development Input
 
 Asset: AI Risk Signals for Young People
 
@@ -14,7 +14,7 @@ Prepare a public research brief structure for communicating AI risk signals affe
 
 ## Target Audience
 
-Public-interest researchers, educators, youth-facing institutions, and grant reviewers.
+Public-interest researchers, educators, youth-facing institutions, and opportunity reviewers.
 
 ## Expected Outputs
 
@@ -22,7 +22,7 @@ Research brief package and future Version 1 publication draft.
 
 ## Evidence Requirements
 
-Public AI safety materials, youth digital risk literature, platform policy sources, and Research OS synthesis after review.
+Public AI safety materials, youth digital risk literature, platform policy sources, and source-based synthesis after review.
 
 ## Future Expansion Paths
 

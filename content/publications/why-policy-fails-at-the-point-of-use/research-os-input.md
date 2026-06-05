@@ -1,4 +1,4 @@
-# Research OS Input
+# Publication Development Input
 
 Asset: Why Policy Fails at the Point of Use
 
@@ -22,7 +22,7 @@ Working paper package, publication outline, and archive-ready metadata.
 
 ## Evidence Requirements
 
-Public policy documents, governance literature, implementation literature, and Research OS synthesis after documented review.
+Public policy documents, governance literature, implementation literature, and documented source-based synthesis.
 
 ## Future Expansion Paths
 

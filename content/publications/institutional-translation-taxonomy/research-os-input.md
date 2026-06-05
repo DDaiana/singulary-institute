@@ -1,4 +1,4 @@
-# Research OS Input
+# Publication Development Input
 
 Asset: Institutional Translation Taxonomy
 
@@ -22,7 +22,7 @@ Taxonomy package, publication outline, and website summary.
 
 ## Evidence Requirements
 
-Public institutional reports, governance literature, and source-based Research OS synthesis after review.
+Public institutional reports, governance literature, and source-based source-based synthesis after review.
 
 ## Future Expansion Paths
 

@@ -6,7 +6,7 @@ The archive is generated from `content/content-registry.json` and mirrors the pu
 
 - Decision Usability Framework (Draft Package)
 - Institutional Translation Taxonomy (Draft Package)
-- Assessing Decision Usability (Draft Package)
+- Assessing Decision Usability in AI Governance Documents (Draft Package)
 - Why Policy Fails at the Point of Use (Draft Package)
 - Decision Brief Architecture (Draft Package)
 - AI Manipulation Navigator (Draft Package)
