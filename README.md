@@ -1,50 +1,32 @@
 # Singulary Institute
 
-Singulary Institute is a public research interface backed by a local private operating brain.
+Singulary Institute is the public delivery layer for structured research outputs on AI, institutions, risk, and decision-making.
 
-The GitHub repository is the Public Delivery Layer. It contains public-safe website, content, methodology, governance summaries, and publication materials.
-
-The local Private Operating Brain is the institutional source of truth. It holds internal research logic, strategic assessments, evidence notes, opportunity review, grant strategy, implementation packages, and private governance materials.
-
-## Architecture
-
-```text
-Private Operating Brain
-└── Public Export Package
-    └── Public Repository
-        └── Website
-```
+The website is driven by a public-safe content registry. Private planning, unpublished analysis, sensitive opportunity notes, internal prompts, and project-development material do not belong in this repository layer.
 
 ## Repository Structure
 
 - `apps/website`: Vite and React public website.
-- `research-infrastructure`: public identity, governance summaries, intelligence taxonomy, theory, publication, and programme materials.
-- `content`: programmes, publications, research areas, methodology, archive policy, and `content-registry.json`.
-- `operations`: public-safe governance summaries and public/private boundary policies.
-- `docs`: architecture notes and templates.
-- `.github/workflows`: GitHub Pages deployment.
+- `content/content-registry.json`: public research areas, publication categories, and visible publication summaries.
+- `content`: public support pages for research areas, methodology, archive policy, and publication indexing.
+- `research-infrastructure`: public institutional positioning, governance principles, and publication standards.
+- `operations`: concise public-safe operating summaries, privacy-boundary rules, public governance principles, knowledge-asset summaries, and public-output summaries.
+- `docs`: public architecture notes for the content model, publication pipeline, and website mapping.
+- `.github/workflows`: deployment workflow.
 
-## Public / Private Boundary
+## Public Content Rule
 
-Before future public repository modifications, work should pass through the private operating brain and then be exported as a public-safe package.
+The public website renders only registry items where:
 
-Private Operating Brain -> Public Export Package -> Public Repository -> Website.
+- `public` is `true`
+- `visibility` is `public`
+- `websiteStatus` is `visible`
 
-GitHub is not the source of truth.
+Working drafts, private projects, proposal-stage material, funding notes, and internal operating records are not rendered by the website.
 
-The public repository must not contain private prompts, strategic assessments, opportunity scoring, grant strategy, private decision records, internal research notes, private evidence notes, implementation packages, or internal audits.
+## Publication Model
 
-## Public Governance
-
-Public governance materials explain high-level principles only. Internal operating logic remains local-only.
-
-## Content System
-
-The website imports `content/content-registry.json`. Adding a publication to the registry with a programme and research area automatically surfaces it in Publications, Archive, related Programme views, and related Research Area counts.
-
-## Publication Pipeline
-
-Draft -> Review -> Approved -> Website -> LinkedIn -> Archive
+Public outputs are organised as frameworks, research briefs, explainers, and methodology notes. Each output is linked to a public research area and written in restrained public-facing language.
 
 ## Local Development
 

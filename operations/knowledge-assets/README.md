@@ -1,27 +1,22 @@
-# Knowledge Asset Engine
+# Knowledge Assets
 
-The Knowledge Asset Engine turns private research work into public-safe assets that can support publications, credibility, and opportunity readiness.
+Knowledge assets are reusable public research outputs.
 
-It does not expose private projects.
+## Public Asset Types
 
-Publication content originates from the ChatGPT Research OS.
+- Framework
+- Taxonomy
+- Research Brief
+- Methodology Note
+- Explainer
+- Public Note
 
-Codex Execution OS integrates approved outputs into the repository and website.
-
-## Model
+## Public Model
 
 ```text
-Project
-  ↓
-Knowledge Asset
-  ↓
-Public Output
-  ↓
-Institutional Credibility
-  ↓
-Grant Support
+Research area -> public output -> website publication
 ```
 
 ## Rule
 
-Assets may be public while their source projects remain private.
+Only cleared public assets are listed in this repository. Draft reasoning, evidence notes, and private preparation materials remain outside the public delivery layer.

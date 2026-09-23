@@ -1,0 +1,15 @@
+{
+  "name": "Singulary Institute",
+  "short_name": "Singulary",
+  "start_url": "/singulary-institute/",
+  "display": "minimal-ui",
+  "background_color": "#030711",
+  "theme_color": "#030711",
+  "icons": [
+    {
+      "src": "/singulary-institute/assets/singulary-symbol.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

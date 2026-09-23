@@ -2,32 +2,19 @@
 
 This directory provides a public explanation of Singulary Institute governance principles.
 
-It contains high-level governance only.
+## Principles
 
-It does not expose:
+- Public materials must be clear, restrained, and public-safe.
+- Research claims must not exceed the available public support.
+- Publication pages must distinguish early public versions from completed research.
+- Internal planning details do not belong on the public website.
+- Public outputs should be linked to research areas, not to private project machinery.
 
-- operating prompts
-- decision engines
-- internal workflows
-- implementation package structures
-- strategic scoring systems
-- private evidence notes
-- internal audits
-- opportunity assessments
-- grant strategy
+## Responsibilities
 
-## Public Principles
-
-Singulary Institute separates public research communication from private institutional operations.
-
-Public materials may describe:
-
-- research integrity
-- evidence safeguards
-- publication clearance
-- public/private boundaries
-- responsible AI-assisted research practices
-- high-level institutional governance principles
-
-Private operating materials remain local-only in the Private Operating Brain.
-
+| Area | Public Responsibility |
+| --- | --- |
+| Research framing | Define public research questions and boundaries. |
+| Publication review | Check clarity, scope, and public safety before release. |
+| Website updates | Render only public-safe registry content. |
+| Repository hygiene | Remove obsolete, duplicate, or internal-facing material. |

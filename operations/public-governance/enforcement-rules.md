@@ -1,13 +1,10 @@
 # Public Enforcement Rules
 
-- No private project may appear on the website.
-- No proposal-stage project may appear on the website.
-- No rejected grant information may appear publicly.
-- No funding assessment may appear publicly.
-- No implementation package may appear publicly.
-- No strategic assessment may appear publicly.
-- Only public outputs may appear on the website.
-- GitHub is the Public Delivery Layer, not the institutional source of truth.
-- The Private Operating Brain is the institutional source of truth.
-- Only public-safe export packages may be committed.
-
+- No private or proposal-stage project may appear on the website.
+- No non-public opportunity assessment may appear on the website.
+- Only public outputs may appear in public publication listings.
+- Publication cards must not expose internal metadata.
+- Working papers remain hidden until explicitly cleared.
+- Public research claims must not exceed the stated scope.
+- Website content must be generated from public-safe registry fields.
+- Duplicate scaffolding should be consolidated into the registry or a single summary file.

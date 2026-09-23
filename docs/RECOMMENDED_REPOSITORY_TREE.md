@@ -16,16 +16,20 @@ singulary-institute/
 │  ├─ intelligence-pipeline/
 │  ├─ theory/
 │  ├─ operations/
-│  ├─ publication/
-│  └─ programmes/
+│  └─ publication/
 │
 ├─ content/
-│  ├─ programmes/
+│  ├─ archive/
+│  ├─ methodology/
 │  ├─ publications/
 │  ├─ research-areas/
-│  ├─ methodology/
-│  ├─ archive/
 │  └─ content-registry.json
+│
+├─ operations/
+│  ├─ knowledge-assets/
+│  ├─ privacy-boundary/
+│  ├─ public-governance/
+│  └─ public-output-engine/
 │
 ├─ docs/
 ├─ archive/
@@ -35,3 +39,5 @@ singulary-institute/
 ├─ README.md
 └─ LICENSE
 ```
+
+This tree describes the public delivery layer. Private planning, internal prompts, sensitive opportunity notes, unpublished evidence material, and proposal-stage files should not be added to this public structure.

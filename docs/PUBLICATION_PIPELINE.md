@@ -1,16 +1,15 @@
 # Publication Pipeline
 
-Singulary Institute uses a six-stage publication pipeline:
+Singulary Institute uses a public-safe publication pipeline:
 
 ```text
-Draft -> Review -> Approved -> Website -> LinkedIn -> Archive
+Draft outside public repository -> Public review -> Registry entry -> Website -> Archive
 ```
 
 ## Stage Definitions
 
-- Draft: working content is created in `content/publications`.
-- Review: editorial, methodological, and governance checks are performed.
-- Approved: content is cleared for public release.
-- Website: the content registry exposes the item on the public website.
-- LinkedIn: the publication is adapted for public distribution.
-- Archive: the final item remains discoverable through repository and website archive views.
+- Draft: working content remains outside the public delivery layer.
+- Public review: the summary, scope, and public wording are checked.
+- Registry entry: cleared public metadata is added to `content/content-registry.json`.
+- Website: the item appears in Publications and related Research Area pages.
+- Archive: public records remain discoverable after release.

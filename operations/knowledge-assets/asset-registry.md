@@ -1,17 +1,14 @@
 # Asset Registry
 
-| Asset Name | Asset Type | Source | Visibility | Publication Status | Website Status | Related Opportunities | Research Area | Programme |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Decision Usability Framework | Framework | Public output package | Public Asset | Draft Package | Package page available | Future grants; fellowships; partnerships | institutions-governance | policy-usability-and-decision-systems |
-| Institutional Translation Taxonomy | Taxonomy | Public output package | Public Asset | Draft Package | Package page available | Future grants; fellowships; partnerships | institutions-governance | policy-usability-and-decision-systems |
-| Assessing Decision Usability in AI Governance Documents | Methodology Note | Public output package | Public Asset | Draft Package | Package page available | Future grants; fellowships; partnerships | institutions-governance | policy-usability-and-decision-systems |
-| Why Policy Fails at the Point of Use | Working Paper | Public output package | Public Asset | Draft Package | Package page available | Future grants; fellowships; partnerships | institutions-governance | policy-usability-and-decision-systems |
-| Decision Brief Architecture | Framework | Public output package | Public Asset | Draft Package | Package page available | Future grants; fellowships; partnerships | institutions-governance | policy-usability-and-decision-systems |
-| AI Manipulation Navigator | Framework | Public output package | Public Asset | Draft Package | Package page available | Future grants; fellowships; partnerships | risk-futures | youth-safety-and-emerging-risks |
-| Understanding Synthetic Media | Explainer | Public output package | Public Asset | Draft Package | Package page available | Future grants; fellowships; partnerships | ai-technology | youth-safety-and-emerging-risks |
-| Recognising Digital Influence Systems | Explainer | Public output package | Public Asset | Draft Package | Package page available | Future grants; fellowships; partnerships | society-behavior | youth-safety-and-emerging-risks |
-| How AI Shapes Online Decisions | Explainer | Public output package | Public Asset | Draft Package | Package page available | Future grants; fellowships; partnerships | society-behavior | youth-safety-and-emerging-risks |
-| Youth Digital Risk Map | Taxonomy | Public output package | Public Asset | Draft Package | Package page available | Future grants; fellowships; partnerships | risk-futures | youth-safety-and-emerging-risks |
-| AI Risk Signals for Young People | Research Brief | Public output package | Public Asset | Draft Package | Package page available | Future grants; fellowships; partnerships | risk-futures | youth-safety-and-emerging-risks |
-
-No source project names are exposed in this public registry.
+| Asset Name | Asset Type | Public Status | Research Area |
+| --- | --- | --- | --- |
+| Decision Usability Framework | Framework | Visible | Institutions & Governance |
+| Institutional Translation Taxonomy | Framework | Visible | Institutions & Governance |
+| Assessing Decision Usability in AI Governance Documents | Methodology Note | Visible | Institutions & Governance |
+| Decision Brief Architecture | Framework | Visible | Institutions & Governance |
+| AI Manipulation Navigator | Framework | Visible | Risk & Futures |
+| Understanding Synthetic Media | Explainer | Visible | AI & Technology |
+| Recognising Digital Influence Systems | Explainer | Visible | Society & Behavior |
+| How AI Shapes Online Decisions | Explainer | Visible | Society & Behavior |
+| Youth Digital Risk Map | Framework | Visible | Risk & Futures |
+| AI Risk Signals for Young People | Research Brief | Visible | Risk & Futures |

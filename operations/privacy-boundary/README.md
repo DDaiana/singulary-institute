@@ -1,23 +1,26 @@
 # Privacy Boundary
 
-The privacy boundary protects Singulary Institute by separating the public-safe GitHub output layer from any local-only private operating brain.
+The privacy boundary keeps the public repository focused on public-safe materials.
 
-GitHub must contain only public-safe information.
+## Public Repository May Contain
 
-GitHub is the Public Delivery Layer.
+- public website code and assets
+- public research-area summaries
+- public publication summaries
+- public methodology summaries
+- public governance principles
+- public content registries
 
-The Private Operating Brain is the institutional source of truth.
+## Public Repository Must Not Contain
 
-Local-only folders may contain private strategy notes, sensitive grant notes, non-public research decisions, unpublished reasoning, and raw source notes not cleared for publication.
+- private strategy notes
+- non-public opportunity assessments
+- personal financial information
+- unpublished source notes
+- internal reasoning logs
+- unsupported factual claims presented as findings
+- confidential or sensitive materials
 
-## Files
+## Required Check
 
-- `brain-separation-policy.md`
-- `classification-system.md`
-- `public-export-workflow.md`
-- `public-private-boundary.md`
-- `public-safe-content-policy.md`
-- `private-operating-brain-policy.md`
-- `gitignore-policy.md`
-- `publication-clearance-checklist.md`
-- `repository-sanitization-checklist.md`
+Before committing, use `repository-sanitization-checklist.md`.

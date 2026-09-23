@@ -1,42 +1,25 @@
 # Operations
 
-This directory contains public-safe governance summaries for Singulary Institute.
+This directory contains public-safe operating summaries for the Singulary Institute public repository.
 
-GitHub is the Public Delivery Layer. It is not the institutional source of truth.
+It is intentionally lean. Detailed planning, private assessments, unpublished evidence notes, sensitive opportunity material, internal prompts, and draft reasoning belong outside the public delivery layer.
 
-The Private Operating Brain is the institutional source of truth and remains local-only in `_private/`.
+## Current Public Structure
 
-## Public Structure
+- `public-governance/`: public principles for responsible publication and repository hygiene.
+- `privacy-boundary/`: rules that keep private or sensitive material out of the public layer.
+- `knowledge-assets/`: public summary of the reusable output model and asset registry.
+- `public-output-engine/`: public summary of publication categories and visible public outputs.
 
-- `public-governance/`: high-level governance principles suitable for public release.
-- `privacy-boundary/`: public/private separation, classification, export, and sanitization policies.
-- `knowledge-assets/`: public-safe knowledge asset model, asset types, registry, and opportunity support framework.
-- `public-output-engine/`: public-safe output types, output registry, workflow, and portfolio planning.
+## Operating Rule
 
-## Not Stored Publicly
+Public repository changes should remain limited to:
 
-The public repository does not contain:
+- website code and public assets
+- public research-area descriptions
+- public publication summaries
+- public methodology and archive policy
+- public governance summaries
+- public-safe registry entries
 
-- operating logic
-- internal governance logic
-- internal prompts
-- strategic assessments
-- opportunity scoring
-- grant strategy
-- private decision records
-- internal research notes
-- private evidence notes
-- implementation packages
-- internal audits
-
-## Export Model
-
-Private Operating Brain -> Public Export Package -> Public Repository -> Website.
-
-Only public-safe export packages should be committed to GitHub.
-
-## Public Output Model
-
-Private Project -> Evidence Synthesis -> Knowledge Asset -> Editorial Review -> Public Output -> Website -> Opportunity Portfolio.
-
-Private projects remain private. Public outputs may appear when they are cleared for release.
+Anything private, sensitive, speculative, proposal-stage, or not cleared for public communication should remain outside this repository layer.

@@ -1,15 +1,14 @@
-# Public Output Engine
+# Public Outputs
 
-The Public Output Engine translates Research OS publication packages into website-ready public outputs.
+Public outputs are the materials shown on the website.
 
-Projects may remain private while approved outputs become public.
+## Website Categories
 
-The website prioritizes:
+- Frameworks
+- Research Briefs
+- Explainers
+- Methodology Notes
 
-- Public Outputs
-- Publications
-- Institutional Activity
-- Execution Evidence
+## Public Rule
 
-The website must not expose proposal titles, grant applications, funding assessments, internal project names, or strategic assessments unless explicitly approved.
-
+The website shows public outputs, not internal project machinery. Publication cards and detail pages should use polished public language: title, category, summary, central idea, explored scope, and reading action.

@@ -1,42 +1,33 @@
 # Content Model Specification
 
-## Publication frontmatter
+The public website is driven by `content/content-registry.json`.
 
-```yaml
-title:
-slug:
-type: brief | essay | signal-report | framework | guide
-programme:
-research_area:
-status: draft | review | approved | published | archived
-date:
-summary:
-tags:
-source_path:
-public: true
-```
+## Top-Level Collections
 
-## Programme frontmatter
+- `researchAreas`
+- `publicationCategories`
+- `publications`
 
-```yaml
-title:
-slug:
-status:
-summary:
-research_question:
-domains:
-active_projects:
-```
+## Public Publication Fields
 
-## Archive item
+Each website-visible publication should include:
 
-```yaml
-title:
-date:
-type:
-programme:
-research_area:
-publication_url:
-repository_path:
-summary:
-```
+- `title`
+- `slug`
+- `type`
+- `researchArea`
+- `summary`
+- `public`
+- `visibility`
+- `websiteStatus`
+- `purpose`
+- `coverage`
+- `currentScope`
+
+The website renders only records where:
+
+- `public` is `true`
+- `visibility` is `public`
+- `websiteStatus` is `visible`
+
+Working drafts and non-public preparation materials are not rendered by the website.

@@ -1,15 +1,14 @@
 # Public Output Registry
 
-| Title | Output Type | Source | Visibility | Publication Status | Website Status | Publication Date | Development Source |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Decision Usability Framework | framework | Public output package | Public Asset | Draft Package | Package page available | TBD | research workflow |
-| Institutional Translation Taxonomy | framework | Public output package | Public Asset | Draft Package | Package page available | TBD | research workflow |
-| Assessing Decision Usability in AI Governance Documents | methodology-note | Public output package | Public Asset | Draft Package | Package page available | TBD | research workflow |
-| Why Policy Fails at the Point of Use | working-paper | Public output package | Public Asset | Draft Package | Package page available | TBD | research workflow |
-| Decision Brief Architecture | framework | Public output package | Public Asset | Draft Package | Package page available | TBD | research workflow |
-| AI Manipulation Navigator | framework | Public output package | Public Asset | Draft Package | Package page available | TBD | research workflow |
-| Understanding Synthetic Media | explainer | Public output package | Public Asset | Draft Package | Package page available | TBD | research workflow |
-| Recognising Digital Influence Systems | explainer | Public output package | Public Asset | Draft Package | Package page available | TBD | research workflow |
-| How AI Shapes Online Decisions | explainer | Public output package | Public Asset | Draft Package | Package page available | TBD | research workflow |
-| Youth Digital Risk Map | framework | Public output package | Public Asset | Draft Package | Package page available | TBD | research workflow |
-| AI Risk Signals for Young People | research-brief | Public output package | Public Asset | Draft Package | Package page available | TBD | research workflow |
+| Title | Output Type | Website Status | Publication Date |
+| --- | --- | --- | --- |
+| Decision Usability Framework | Framework | Visible | TBD |
+| Institutional Translation Taxonomy | Framework | Visible | TBD |
+| Assessing Decision Usability in AI Governance Documents | Methodology Note | Visible | TBD |
+| Decision Brief Architecture | Framework | Visible | TBD |
+| AI Manipulation Navigator | Framework | Visible | TBD |
+| Understanding Synthetic Media | Explainer | Visible | TBD |
+| Recognising Digital Influence Systems | Explainer | Visible | TBD |
+| How AI Shapes Online Decisions | Explainer | Visible | TBD |
+| Youth Digital Risk Map | Framework | Visible | TBD |
+| AI Risk Signals for Young People | Research Brief | Visible | TBD |

@@ -1,49 +1,34 @@
 # Repository Sanitization Checklist
 
-Use before every push.
+Run this checklist before every push.
 
-Check:
+## Check Tracked Files
 
-- `operations/`
-- `content/`
-- `research-infrastructure/`
-- `docs/`
-- `archive/`
-- website files
-
-Ensure:
-
-- public-safe only
-- no private notes
-- no sensitive funding details
-- no internal reasoning leaks
-- no private source material
-- no rejected grant details unless intentionally approved for publication
-- no private operating brain files
-- no private prompts if considered sensitive
 - no `_private/` folder tracked
-- no implementation packages exposed
-- no strategic assessments exposed
-- no internal prompts exposed
-- no unpublished evidence notes exposed
-- no internal audits exposed
-- no opportunity assessments exposed
-- no grant strategy exposed
+- no `private/` folder tracked
+- no `.local-brain/` folder tracked
+- no `.local-research/` folder tracked
+- no `internal-notes/` folder tracked
+- no `sensitive/` folder tracked
+- no `*.private.md` files tracked
+- no `*.internal.md` files tracked
+- no `*.draft-private.md` files tracked
 
-## Search Terms
+## Check Public Content
 
-Check for sensitive words or local-only markers before pushing:
+- website copy is public-facing
+- publication cards do not expose internal metadata
+- research areas do not expose internal projects
+- publication summaries do not claim completed findings without public support
+- registry entries marked visible are public-safe
 
-- `_private`
-- `private`
-- `internal`
-- `sensitive`
-- `budget`
-- `rejected`
-- `do-not-publish`
-- `implementation package`
-- `strategic assessment`
-- `opportunity assessment`
-- `private prompt`
+## Check Repository Surface
 
-The presence of a term does not automatically mean a leak, but it must be reviewed before push.
+- no unpublished source notes
+- no internal reasoning logs
+- no private prompts
+- no personal financial information
+- no sensitive opportunity details
+- no confidential materials
+
+When in doubt, keep the material out of the public repository.
